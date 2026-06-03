@@ -85,7 +85,7 @@ td.empty-cell { background: var(--bg); }
 }
 .card-details-btn { display: inline-block; margin-top: 5px; font-size: .72rem; font-weight: 600; color: var(--accent); text-decoration: none; border: 1px solid var(--accent-light); border-radius: 4px; padding: 1px 7px; transition: background .15s; }
 .card-details-btn:hover { background: var(--accent-light); }
-.card-down-btn, .card-up-btn { background: none; border: 1px solid var(--border); border-radius: 4px; width: 20px; height: 20px; cursor: pointer; font-size: 9px; display: flex; align-items: center; justify-content: center; transition: background .15s, border-color .15s, color .15s; padding: 0; color: var(--muted); }
+.card-down-btn, .card-up-btn { background: none; border: 1px solid var(--border); border-radius: 4px; width: 28px; height: 20px; cursor: pointer; font-size: 9px; display: flex; align-items: center; justify-content: center; transition: background .15s, border-color .15s, color .15s; padding: 0; color: var(--muted); }
 .card-down-btn:hover { background: var(--ni-light); border-color: var(--ni); color: var(--ni); }
 .card-down-btn.active { background: var(--ni); border-color: var(--ni); color: #fff; }
 .card-up-btn:hover { background: var(--interested-light); border-color: var(--interested); color: var(--interested); }
