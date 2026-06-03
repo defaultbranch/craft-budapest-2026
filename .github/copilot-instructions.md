@@ -12,8 +12,8 @@ This workspace contains notes for attending Craft Conference 2026 in Budapest.
 - `craft-budapest-2026.md` — Overview, logistics, keynotes, workshops
 - `craft-budapest-day-1.md` — Full Day 1 schedule (Thursday, June 4)
 - `craft-budapest-day-2.md` — Full Day 2 schedule (Friday, June 5)
-- `craft-budapest-schedule.json` — Machine-readable schedule for both days (validated by `craft-budapest-schedule.schema.json`)
-- `conference-schedule.schema.json` — JSON Schema (draft 2020-12) for the schedule data file
+- `docs/craft-budapest-schedule.json` — Machine-readable schedule for both days (validated by `docs/conference-schedule.schema.json`)
+- `docs/conference-schedule.schema.json` — JSON Schema (draft 2020-12) for the schedule data file
 
 ## How to Read the Program from the Website
 
