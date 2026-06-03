@@ -52,6 +52,10 @@ td.empty-cell { background: var(--bg); }
 .card.state-not-interested { background: var(--ni-light); border-left: 3px solid var(--ni); opacity: .7; }
 .card.state-interested { background: var(--interested-light); border-left: 3px solid var(--interested); }
 .card.state-going { background: var(--planned-light); border-left: 3px solid var(--planned); }
+.card.talk-type { border-left: 3px solid var(--accent); }
+.card.talk-type.state-interested { border-left-color: var(--interested); }
+.card.talk-type.state-going { border-left-color: var(--planned); }
+.card.talk-type.state-not-interested { border-left-color: var(--ni); }
 .card.keynote-type { background: var(--keynote-light); border-left: 3px solid var(--keynote); }
 .card.keynote-type.state-interested { background: var(--interested-light); border-left-color: var(--interested); }
 .card.keynote-type.state-going { background: var(--planned-light); border-left-color: var(--planned); }
@@ -63,7 +67,6 @@ td.empty-cell { background: var(--bg); }
 .card-type { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; margin-bottom: 3px; }
 .card-type.keynote { color: var(--keynote); }
 .card-type.workshop { color: var(--workshop); }
-.card-type.talk { color: var(--accent); }
 .card-title a { color: inherit; text-decoration: none; }
 .card-title a:hover { text-decoration: underline; }
 .card-speakers { font-size: .75rem; color: var(--muted); }

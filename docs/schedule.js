@@ -91,7 +91,8 @@ function cardHTML(e, showStage) {
     'card',
     'state-' + state,
     e.type === 'keynote' ? 'keynote-type' : '',
-    e.type === 'workshop' ? 'workshop-type' : ''
+    e.type === 'workshop' ? 'workshop-type' : '',
+    e.type === 'talk' ? 'talk-type' : ''
   ].filter(Boolean).join(' ');
   const titleHTML = e.url
     ? `<a href="${e.url}" target="_blank" rel="noopener">${e.title}</a>`
