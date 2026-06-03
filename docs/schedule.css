@@ -46,7 +46,7 @@ td.break-cell { background: var(--break-bg); text-align: center; color: var(--mu
 td.empty-cell { background: var(--bg); }
 
 /* ── CARD ── */
-.card { background: var(--card); border-radius: var(--radius); padding: 8px; margin: 3px; box-shadow: var(--shadow); cursor: default; transition: box-shadow .15s; position: relative; }
+.card { background: var(--card); border-radius: var(--radius); padding: 8px; margin: 3px; box-shadow: var(--shadow); cursor: default; transition: box-shadow .15s; container-type: inline-size; }
 .card:hover { box-shadow: 0 3px 8px rgba(0,0,0,.14); }
 /* ── CARD STATE ── */
 .card.state-not-interested { background: var(--ni-light); border-left: 3px solid var(--ni); opacity: .7; }
@@ -64,14 +64,24 @@ td.empty-cell { background: var(--bg); }
 .card-type.keynote { color: var(--keynote); }
 .card-type.workshop { color: var(--workshop); }
 .card-type.talk { color: var(--accent); }
-.card-title { font-size: .82rem; font-weight: 600; line-height: 1.3; margin-bottom: 4px; }
 .card-title a { color: inherit; text-decoration: none; }
 .card-title a:hover { text-decoration: underline; }
 .card-speakers { font-size: .75rem; color: var(--muted); }
 .card-time { font-size: .7rem; color: var(--muted); margin-top: 3px; }
+
+/* ── CARD HEADER (title + promote/demote buttons) ── */
+.card-header { display: flex; align-items: flex-start; gap: 4px; margin-bottom: 3px; }
+.card-main { flex: 1 1 0; min-width: 0; }
+.card-title { font-size: .82rem; font-weight: 600; line-height: 1.3; }
+.card-state-btns { flex: 0 0 auto; display: flex; gap: 3px; }
+/* Narrow card: buttons wrap above the content block, right-flushed */
+@container (max-width: 130px) {
+  .card-header { flex-wrap: wrap; justify-content: flex-end; }
+  .card-main { flex: 0 0 100%; order: 2; }
+  .card-state-btns { order: 1; }
+}
 .card-details-btn { display: inline-block; margin-top: 5px; font-size: .72rem; font-weight: 600; color: var(--accent); text-decoration: none; border: 1px solid var(--accent-light); border-radius: 4px; padding: 1px 7px; transition: background .15s; }
 .card-details-btn:hover { background: var(--accent-light); }
-.card-state-btns { position: absolute; top: 5px; right: 5px; display: flex; gap: 3px; }
 .card-down-btn, .card-up-btn { background: none; border: 1px solid var(--border); border-radius: 4px; width: 20px; height: 20px; cursor: pointer; font-size: 9px; display: flex; align-items: center; justify-content: center; transition: background .15s, border-color .15s, color .15s; padding: 0; color: var(--muted); }
 .card-down-btn:hover { background: var(--ni-light); border-color: var(--ni); color: var(--ni); }
 .card-down-btn.active { background: var(--ni); border-color: var(--ni); color: #fff; }

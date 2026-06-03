@@ -104,13 +104,17 @@ function cardHTML(e, showStage) {
   const upTitle = state === 'going' ? 'Going – click to demote' : state === 'interested' ? 'Interested – click to promote to Going' : 'Click to mark as interested';
   const detailsBtn = e.url ? `<a class="card-details-btn" href="${e.url}" target="_blank" rel="noopener">Details ↗</a>` : '';
   return `<div class="${cardClass}" data-eid="${eid}"${urlAttr}>
-    <div class="card-state-btns">
-      <button class="card-down-btn${downActive}" title="${downTitle}" aria-label="${downTitle}">▼</button>
-      <button class="card-up-btn${upExtra}" title="${upTitle}" aria-label="${upTitle}">▲</button>
+    <div class="card-header">
+      <div class="card-main">
+        ${e.type !== 'talk' ? `<div class="card-type ${e.type}">${e.type}</div>` : ''}
+        ${showStage && e.stage ? `<div class="stage-label">${e.stage}</div>` : ''}
+        <div class="card-title">${e.title}</div>
+      </div>
+      <div class="card-state-btns">
+        <button class="card-down-btn${downActive}" title="${downTitle}" aria-label="${downTitle}">▼</button>
+        <button class="card-up-btn${upExtra}" title="${upTitle}" aria-label="${upTitle}">▲</button>
+      </div>
     </div>
-    ${e.type !== 'talk' ? `<div class="card-type ${e.type}">${e.type}</div>` : ''}
-    ${showStage && e.stage ? `<div class="stage-label">${e.stage}</div>` : ''}
-    <div class="card-title">${e.title}</div>
     ${e.speakers && e.speakers.length ? `<div class="card-speakers">${e.speakers.join(', ')}</div>` : ''}
     <div class="card-time">${e.start}–${e.end}</div>
     ${detailsBtn}
