@@ -32,5 +32,7 @@ An international, festival-like conference dedicated to the art and science of s
 
 ## Program
 
+Stages: Main Stage (18), Platform 2 (11), Focus Platform (6), Yellow Stage (11), Telekom Stage (11), Purple Stage (11), Green Stage (6), Innovation Stage (11), Podcast Stage (10), Tech Leaders' Lounge (3), Central Workshop Area (5), 🚂 Train Tracks (2), Sponsor Arena (2)
+
 - [Day 1 – Thursday, June 4](craft-budapest-day-1.md)
 - [Day 2 – Friday, June 5](craft-budapest-day-2.md)
