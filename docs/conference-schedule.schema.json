@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.com/conference-schedule/schema",
+  "$id": "https://defaultbranch.github.io/craft-budapest-2026/conference-schedule.schema.json",
   "title": "Conference Schedule",
   "description": "Schema for a conference schedule data file.",
   "type": "object",
