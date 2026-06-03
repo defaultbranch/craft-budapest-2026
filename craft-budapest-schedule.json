@@ -1,30 +1,24 @@
 {
+  "$schema": "./conference-schedule.schema.json",
   "conference": "Craft Budapest 2026",
-  "dates": {
-    "day1": "2026-06-04",
-    "day2": "2026-06-05"
-  },
   "events": [
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "08:20",
       "end": "09:20",
-      "stage": null,
       "type": "logistics",
-      "title": "Registration",
-      "speakers": []
+      "title": "Registration"
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "09:20",
       "end": "09:40",
       "stage": "Main Stage",
       "type": "ceremony",
-      "title": "Opening ceremony",
-      "speakers": []
+      "title": "Opening ceremony"
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "09:40",
       "end": "10:40",
       "stage": "Main Stage",
@@ -33,25 +27,22 @@
       "speakers": ["Gergely Orosz"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "10:40",
       "end": "10:50",
-      "stage": null,
       "type": "break",
-      "title": "Break",
-      "speakers": []
+      "title": "Break"
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "10:50",
       "end": "11:00",
       "stage": "Podcast Stage",
       "type": "other",
-      "title": "Podcast Stage Opening",
-      "speakers": []
+      "title": "Podcast Stage Opening"
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "11:00",
       "end": "11:45",
       "stage": "Main Stage",
@@ -60,7 +51,7 @@
       "speakers": ["Reuven Cohen"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "11:00",
       "end": "11:45",
       "stage": "Platform 2",
@@ -69,7 +60,7 @@
       "speakers": ["Joseph Pelrine"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "11:00",
       "end": "12:45",
       "stage": "Focus Platform",
@@ -78,7 +69,7 @@
       "speakers": ["Robert Ranson"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "11:00",
       "end": "11:45",
       "stage": "Yellow Stage",
@@ -87,7 +78,7 @@
       "speakers": ["Sander Hoogendoorn"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "11:00",
       "end": "11:45",
       "stage": "Telekom Stage",
@@ -96,7 +87,7 @@
       "speakers": ["Barry O'Reilly"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "11:00",
       "end": "11:45",
       "stage": "Purple Stage",
@@ -105,7 +96,7 @@
       "speakers": ["Matthew Clark"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "11:00",
       "end": "12:45",
       "stage": "Green Stage",
@@ -114,7 +105,7 @@
       "speakers": ["Xin Yao"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "11:00",
       "end": "11:45",
       "stage": "Innovation Stage",
@@ -123,7 +114,7 @@
       "speakers": ["Sam Matysen"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "11:00",
       "end": "11:45",
       "stage": "Podcast Stage",
@@ -132,7 +123,7 @@
       "speakers": ["Michael Feathers"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "11:00",
       "end": "12:00",
       "stage": "Central Workshop Area",
@@ -141,16 +132,14 @@
       "speakers": ["Gabor Timar"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "11:45",
       "end": "12:00",
-      "stage": null,
       "type": "break",
-      "title": "Coffee Break",
-      "speakers": []
+      "title": "Coffee Break"
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "11:45",
       "end": "14:30",
       "stage": "Sponsor Arena",
@@ -159,7 +148,7 @@
       "speakers": ["Gergely Orosz"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "12:00",
       "end": "12:45",
       "stage": "Main Stage",
@@ -168,7 +157,7 @@
       "speakers": ["Gregor Hohpe"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "12:00",
       "end": "12:45",
       "stage": "Platform 2",
@@ -177,7 +166,7 @@
       "speakers": ["Banjo Obayomi"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "12:00",
       "end": "12:45",
       "stage": "Yellow Stage",
@@ -186,7 +175,7 @@
       "speakers": ["Cat Swetel"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "12:00",
       "end": "12:45",
       "stage": "Telekom Stage",
@@ -195,7 +184,7 @@
       "speakers": ["Marian Hartman"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "12:00",
       "end": "12:45",
       "stage": "Purple Stage",
@@ -204,7 +193,7 @@
       "speakers": ["Hillel Wayne"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "12:00",
       "end": "12:45",
       "stage": "Innovation Stage",
@@ -213,7 +202,7 @@
       "speakers": ["Viktor Micskó"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "12:00",
       "end": "12:45",
       "stage": "Podcast Stage",
@@ -222,16 +211,14 @@
       "speakers": ["Kent Beck"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "12:45",
       "end": "14:00",
-      "stage": null,
       "type": "break",
-      "title": "Lunch",
-      "speakers": []
+      "title": "Lunch"
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:00",
       "end": "14:45",
       "stage": "Main Stage",
@@ -240,7 +227,7 @@
       "speakers": ["James Hawkins"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:00",
       "end": "14:45",
       "stage": "Platform 2",
@@ -249,7 +236,7 @@
       "speakers": ["Ian Cooper"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:00",
       "end": "15:40",
       "stage": "Focus Platform",
@@ -258,7 +245,7 @@
       "speakers": ["Martin Dilger"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:00",
       "end": "14:45",
       "stage": "Yellow Stage",
@@ -267,7 +254,7 @@
       "speakers": ["Titus Winters"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:00",
       "end": "14:45",
       "stage": "Telekom Stage",
@@ -276,7 +263,7 @@
       "speakers": ["Kenny (Baas) Schwegler", "Evelyn van Kelle"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:00",
       "end": "14:45",
       "stage": "Purple Stage",
@@ -285,7 +272,7 @@
       "speakers": ["Simon Rohrer"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:00",
       "end": "15:40",
       "stage": "Green Stage",
@@ -294,7 +281,7 @@
       "speakers": ["Wesley Reisz"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:00",
       "end": "14:45",
       "stage": "Innovation Stage",
@@ -303,7 +290,7 @@
       "speakers": ["Gabriella Mátyás-Kollár", "Katalin Hornyik", "Rozália Miklós", "József Holderith", "Médea Baccifava"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:00",
       "end": "14:45",
       "stage": "Podcast Stage",
@@ -312,7 +299,7 @@
       "speakers": ["Nickolas Means"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:00",
       "end": "14:45",
       "stage": "Tech Leaders' Lounge",
@@ -321,16 +308,14 @@
       "speakers": ["Cat Swetel", "Robert Ranson", "Arlo Belshee", "Emese Pogácsás", "Péter Szász"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:45",
       "end": "14:55",
-      "stage": null,
       "type": "break",
-      "title": "Break",
-      "speakers": []
+      "title": "Break"
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:50",
       "end": "15:50",
       "stage": "Central Workshop Area",
@@ -339,7 +324,7 @@
       "speakers": ["Gergely Ruzsics"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:55",
       "end": "15:40",
       "stage": "Main Stage",
@@ -348,7 +333,7 @@
       "speakers": ["Michelle Brush"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:55",
       "end": "15:40",
       "stage": "Platform 2",
@@ -357,7 +342,7 @@
       "speakers": ["Mark Richards"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:55",
       "end": "15:40",
       "stage": "Yellow Stage",
@@ -366,7 +351,7 @@
       "speakers": ["Adam Granicz"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:55",
       "end": "15:40",
       "stage": "Telekom Stage",
@@ -375,7 +360,7 @@
       "speakers": ["Kenny (Baas) Schwegler", "Evelyn van Kelle"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:55",
       "end": "15:40",
       "stage": "Purple Stage",
@@ -384,7 +369,7 @@
       "speakers": ["Artie Shevchenko"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "14:55",
       "end": "15:40",
       "stage": "Innovation Stage",
@@ -393,7 +378,7 @@
       "speakers": ["Ivan Petrović"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "15:00",
       "end": "15:40",
       "stage": "Podcast Stage",
@@ -402,25 +387,22 @@
       "speakers": ["Ian Thomas"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "15:40",
       "end": "16:00",
-      "stage": null,
       "type": "break",
-      "title": "Coffee Break",
-      "speakers": []
+      "title": "Coffee Break"
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "15:45",
       "end": "16:30",
       "stage": "Train Tracks",
       "type": "social",
-      "title": "Guided Tour of the Hungarian Railway Museum",
-      "speakers": []
+      "title": "Guided Tour of the Hungarian Railway Museum"
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:00",
       "end": "16:45",
       "stage": "Main Stage",
@@ -429,7 +411,7 @@
       "speakers": ["Ryan Lopopolo"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:00",
       "end": "16:45",
       "stage": "Platform 2",
@@ -438,7 +420,7 @@
       "speakers": ["Chelsea Troy"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:00",
       "end": "17:40",
       "stage": "Focus Platform",
@@ -447,7 +429,7 @@
       "speakers": ["Reuven Cohen"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:00",
       "end": "16:45",
       "stage": "Yellow Stage",
@@ -456,7 +438,7 @@
       "speakers": ["Kevlin Henney"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:00",
       "end": "16:45",
       "stage": "Telekom Stage",
@@ -465,7 +447,7 @@
       "speakers": ["Tejas Kumar"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:00",
       "end": "16:45",
       "stage": "Purple Stage",
@@ -474,7 +456,7 @@
       "speakers": ["Neal Ford"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:00",
       "end": "17:40",
       "stage": "Green Stage",
@@ -483,7 +465,7 @@
       "speakers": ["Daniel Vigovszky"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:00",
       "end": "16:45",
       "stage": "Innovation Stage",
@@ -492,7 +474,7 @@
       "speakers": ["Emese Pogácsás", "Richárd Román", "István Szabó", "Zsuzsa Kovács", "Tamás Németh"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:00",
       "end": "16:45",
       "stage": "Podcast Stage",
@@ -501,16 +483,14 @@
       "speakers": ["Evelyn van Kelle"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:45",
       "end": "16:55",
-      "stage": null,
       "type": "break",
-      "title": "Break",
-      "speakers": []
+      "title": "Break"
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:55",
       "end": "17:40",
       "stage": "Main Stage",
@@ -519,7 +499,7 @@
       "speakers": ["Daniel Terhorst-North"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:55",
       "end": "17:40",
       "stage": "Platform 2",
@@ -528,7 +508,7 @@
       "speakers": ["Justin Reock"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:55",
       "end": "17:40",
       "stage": "Yellow Stage",
@@ -537,7 +517,7 @@
       "speakers": ["Bryan Oliver"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:55",
       "end": "17:40",
       "stage": "Telekom Stage",
@@ -546,7 +526,7 @@
       "speakers": ["Balázs Csintalan"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:55",
       "end": "17:40",
       "stage": "Purple Stage",
@@ -555,7 +535,7 @@
       "speakers": ["Matthew Maisel"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "16:55",
       "end": "17:40",
       "stage": "Innovation Stage",
@@ -564,16 +544,14 @@
       "speakers": ["Ádám Kovács", "Klara Hermesz"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "17:40",
       "end": "17:50",
-      "stage": null,
       "type": "break",
-      "title": "Break",
-      "speakers": []
+      "title": "Break"
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "17:50",
       "end": "18:50",
       "stage": "Main Stage",
@@ -582,16 +560,14 @@
       "speakers": ["Veronica Lynn Clark"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "18:50",
       "end": "22:00",
-      "stage": null,
       "type": "social",
-      "title": "Networking Party (sponsored by EPAM)",
-      "speakers": []
+      "title": "Networking Party (sponsored by EPAM)"
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "18:50",
       "end": "19:30",
       "stage": "Sponsor Arena",
@@ -600,43 +576,38 @@
       "speakers": ["Veronica Lynn Clark"]
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "19:00",
       "end": "22:00",
       "stage": "Tech Leaders' Lounge",
       "type": "social",
-      "title": "Wine tasting",
-      "speakers": []
+      "title": "Wine tasting"
     },
     {
-      "day": 1,
+      "day": "2026-06-04",
       "start": "19:00",
       "end": "19:45",
       "stage": "Train Tracks",
       "type": "social",
-      "title": "Guided Tour of the Hungarian Railway Museum",
-      "speakers": []
+      "title": "Guided Tour of the Hungarian Railway Museum"
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "08:10",
       "end": "09:00",
-      "stage": null,
       "type": "logistics",
-      "title": "Registration",
-      "speakers": []
+      "title": "Registration"
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "09:00",
       "end": "09:10",
       "stage": "Main Stage",
       "type": "ceremony",
-      "title": "Opening ceremony",
-      "speakers": []
+      "title": "Opening ceremony"
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "09:10",
       "end": "10:10",
       "stage": "Main Stage",
@@ -645,16 +616,14 @@
       "speakers": ["Kent Beck"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "10:10",
       "end": "10:30",
-      "stage": null,
       "type": "break",
-      "title": "Coffee Break",
-      "speakers": []
+      "title": "Coffee Break"
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "10:30",
       "end": "11:15",
       "stage": "Main Stage",
@@ -663,7 +632,7 @@
       "speakers": ["Michael Feathers"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "10:30",
       "end": "11:15",
       "stage": "Platform 2",
@@ -672,7 +641,7 @@
       "speakers": ["Ashi Krishnan"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "10:30",
       "end": "12:15",
       "stage": "Focus Platform",
@@ -681,7 +650,7 @@
       "speakers": ["Barry S. Stahl"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "10:30",
       "end": "11:15",
       "stage": "Yellow Stage",
@@ -690,7 +659,7 @@
       "speakers": ["Ilyas Landikov"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "10:30",
       "end": "11:15",
       "stage": "Telekom Stage",
@@ -699,7 +668,7 @@
       "speakers": ["Duncan Brown"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "10:30",
       "end": "11:15",
       "stage": "Purple Stage",
@@ -708,7 +677,7 @@
       "speakers": ["Martin Dilger"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "10:30",
       "end": "12:15",
       "stage": "Green Stage",
@@ -717,7 +686,7 @@
       "speakers": ["Lada Kesseler"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "10:30",
       "end": "11:15",
       "stage": "Innovation Stage",
@@ -726,7 +695,7 @@
       "speakers": ["Zach Pendleton"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "10:30",
       "end": "11:15",
       "stage": "Podcast Stage",
@@ -735,7 +704,7 @@
       "speakers": ["Joseph Pelrine", "Kenny (Baas) Schwegler"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "10:30",
       "end": "11:15",
       "stage": "Tech Leaders' Lounge",
@@ -744,7 +713,7 @@
       "speakers": ["Gojko Adzic", "Reuven Cohen", "Daniel Terhorst-North", "Emese Pogácsás", "Péter Szász"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "11:00",
       "end": "12:00",
       "stage": "Central Workshop Area",
@@ -753,16 +722,14 @@
       "speakers": ["Zoltán Kukovecz", "Balázs Bábos"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "11:15",
       "end": "11:30",
-      "stage": null,
       "type": "break",
-      "title": "Break",
-      "speakers": []
+      "title": "Break"
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "11:30",
       "end": "12:15",
       "stage": "Main Stage",
@@ -771,7 +738,7 @@
       "speakers": ["Nickolas Means"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "11:30",
       "end": "12:15",
       "stage": "Platform 2",
@@ -780,7 +747,7 @@
       "speakers": ["Sarah Wells"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "11:30",
       "end": "12:15",
       "stage": "Yellow Stage",
@@ -789,7 +756,7 @@
       "speakers": ["Christopher Grainger"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "11:30",
       "end": "12:15",
       "stage": "Telekom Stage",
@@ -798,7 +765,7 @@
       "speakers": ["Jeremy Edberg"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "11:30",
       "end": "12:15",
       "stage": "Purple Stage",
@@ -807,7 +774,7 @@
       "speakers": ["Adam Tornhill"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "11:30",
       "end": "12:15",
       "stage": "Innovation Stage",
@@ -816,7 +783,7 @@
       "speakers": ["János Csorvási", "Julia Raksimowicz"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "11:30",
       "end": "12:15",
       "stage": "Podcast Stage",
@@ -825,16 +792,14 @@
       "speakers": ["Emese Pogácsás", "Péter Szász"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "12:15",
       "end": "13:45",
-      "stage": null,
       "type": "break",
-      "title": "Lunch",
-      "speakers": []
+      "title": "Lunch"
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "13:45",
       "end": "14:30",
       "stage": "Main Stage",
@@ -843,7 +808,7 @@
       "speakers": ["Gojko Adzic"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "13:45",
       "end": "14:30",
       "stage": "Platform 2",
@@ -852,7 +817,7 @@
       "speakers": ["Andras Palffy"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "13:45",
       "end": "15:35",
       "stage": "Focus Platform",
@@ -861,7 +826,7 @@
       "speakers": ["Dragan Spiridonov"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "13:45",
       "end": "14:30",
       "stage": "Yellow Stage",
@@ -870,7 +835,7 @@
       "speakers": ["Kashyap Murali"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "13:45",
       "end": "14:30",
       "stage": "Telekom Stage",
@@ -879,7 +844,7 @@
       "speakers": ["Arlo Belshee"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "13:45",
       "end": "14:30",
       "stage": "Purple Stage",
@@ -888,7 +853,7 @@
       "speakers": ["Ian Thomas"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "13:45",
       "end": "15:35",
       "stage": "Green Stage",
@@ -897,7 +862,7 @@
       "speakers": ["Veronica Lynn Clark"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "13:45",
       "end": "14:30",
       "stage": "Innovation Stage",
@@ -906,7 +871,7 @@
       "speakers": ["Zoltán Dávid"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "13:45",
       "end": "14:30",
       "stage": "Podcast Stage",
@@ -915,7 +880,7 @@
       "speakers": ["Xin Yao"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "13:45",
       "end": "14:30",
       "stage": "Central Workshop Area",
@@ -924,16 +889,14 @@
       "speakers": ["Ádám Molnár"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "14:30",
       "end": "14:50",
-      "stage": null,
       "type": "break",
-      "title": "Coffee Break",
-      "speakers": []
+      "title": "Coffee Break"
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "14:50",
       "end": "15:35",
       "stage": "Main Stage",
@@ -942,7 +905,7 @@
       "speakers": ["Aaron Erickson"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "14:50",
       "end": "15:35",
       "stage": "Platform 2",
@@ -951,7 +914,7 @@
       "speakers": ["Abby Bangser"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "14:50",
       "end": "15:35",
       "stage": "Yellow Stage",
@@ -960,7 +923,7 @@
       "speakers": ["Patrick Debois"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "14:50",
       "end": "15:35",
       "stage": "Telekom Stage",
@@ -969,7 +932,7 @@
       "speakers": ["Kief Morris"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "14:50",
       "end": "15:35",
       "stage": "Purple Stage",
@@ -978,7 +941,7 @@
       "speakers": ["Jacob Kahn"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "14:50",
       "end": "15:35",
       "stage": "Innovation Stage",
@@ -987,7 +950,7 @@
       "speakers": ["Benedek Kovács"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "14:50",
       "end": "15:35",
       "stage": "Podcast Stage",
@@ -996,7 +959,7 @@
       "speakers": ["Gergely Orosz"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "14:50",
       "end": "15:50",
       "stage": "Central Workshop Area",
@@ -1005,16 +968,14 @@
       "speakers": ["Gergely Ruzsics"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "15:35",
       "end": "15:45",
-      "stage": null,
       "type": "break",
-      "title": "Break",
-      "speakers": []
+      "title": "Break"
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "15:45",
       "end": "16:30",
       "stage": "Main Stage",
@@ -1023,7 +984,7 @@
       "speakers": ["Randy Shoup"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "15:45",
       "end": "16:30",
       "stage": "Platform 2",
@@ -1032,7 +993,7 @@
       "speakers": ["Gergely Hodicska"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "15:45",
       "end": "16:30",
       "stage": "Focus Platform",
@@ -1041,7 +1002,7 @@
       "speakers": ["Adam Litter"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "15:45",
       "end": "16:30",
       "stage": "Yellow Stage",
@@ -1050,7 +1011,7 @@
       "speakers": ["Florin Coros"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "15:45",
       "end": "16:30",
       "stage": "Telekom Stage",
@@ -1059,7 +1020,7 @@
       "speakers": ["Gregor Riegler"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "15:45",
       "end": "16:30",
       "stage": "Purple Stage",
@@ -1068,7 +1029,7 @@
       "speakers": ["Llewellyn Falco"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "15:45",
       "end": "16:30",
       "stage": "Green Stage",
@@ -1077,7 +1038,7 @@
       "speakers": ["Márton Szabó"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "15:45",
       "end": "16:30",
       "stage": "Innovation Stage",
@@ -1086,22 +1047,20 @@
       "speakers": ["Balázs Némethi"]
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "16:30",
       "end": "16:45",
       "stage": "Main Stage",
       "type": "other",
-      "title": "Raffle",
-      "speakers": []
+      "title": "Raffle"
     },
     {
-      "day": 2,
+      "day": "2026-06-05",
       "start": "16:45",
       "end": "17:00",
       "stage": "Main Stage",
       "type": "ceremony",
-      "title": "Closing ceremony",
-      "speakers": []
+      "title": "Closing ceremony"
     }
   ]
 }

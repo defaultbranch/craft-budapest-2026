@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/conference-schedule/schema",
+  "title": "Conference Schedule",
+  "description": "Schema for a conference schedule data file.",
+  "type": "object",
+  "required": ["conference", "events"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "URI reference to the JSON Schema that validates this file."
+    },
+    "conference": {
+      "type": "string",
+      "description": "Name of the conference.",
+      "examples": ["Craft Budapest 2026"]
+    },
+    "events": {
+      "type": "array",
+      "description": "All scheduled events across both conference days, ordered by day and start time.",
+      "items": {
+        "$ref": "#/$defs/Event"
+      }
+    }
+  },
+  "$defs": {
+    "TimeString": {
+      "type": "string",
+      "description": "Wall-clock time in 24-hour HH:MM format.",
+      "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$",
+      "examples": ["09:40", "17:00"]
+    },
+    "Stage": {
+      "type": "string",
+      "description": "The stage or venue area where the event takes place. Omitted for non-stage items such as registration or breaks.",
+      "minLength": 1
+    },
+    "EventType": {
+      "type": "string",
+      "description": "Category of the event.",
+      "enum": ["keynote", "talk", "workshop", "break", "social", "ceremony", "logistics", "other"],
+      "meta:enumDescriptions": {
+        "keynote": "Main-stage keynote presentation.",
+        "talk": "Regular session talk on a stage.",
+        "workshop": "Hands-on or interactive workshop.",
+        "break": "Coffee break, lunch break, or similar pause.",
+        "social": "Networking, party, or social activity.",
+        "ceremony": "Opening or closing ceremony.",
+        "logistics": "Administrative or arrival logistics (e.g. registration).",
+        "other": "Any event that does not fit the above categories."
+      }
+    },
+    "Event": {
+      "type": "object",
+      "description": "A single scheduled event (session, break, or activity).",
+      "required": ["day", "start", "end", "type", "title"],
+      "additionalProperties": false,
+      "properties": {
+        "day": {
+          "type": "string",
+          "format": "date",
+          "description": "ISO 8601 date of the conference day the event belongs to.",
+          "examples": ["2026-06-04", "2026-06-05"]
+        },
+        "start": {
+          "$ref": "#/$defs/TimeString",
+          "description": "Start time of the event."
+        },
+        "end": {
+          "$ref": "#/$defs/TimeString",
+          "description": "End time of the event."
+        },
+        "stage": {
+          "$ref": "#/$defs/Stage"
+        },
+        "type": {
+          "$ref": "#/$defs/EventType"
+        },
+        "title": {
+          "type": "string",
+          "description": "Title or name of the event.",
+          "minLength": 1
+        },
+        "speakers": {
+          "type": "array",
+          "description": "Names of the speaker(s). Empty array for events with no speaker (breaks, logistics, etc.).",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+}
