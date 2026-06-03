@@ -1,8 +1,27 @@
 const DATA_URL = 'craft-budapest-schedule.json';
 const STORAGE_KEY = 'craft2026_planned';
 
+// States ordered low → high
+const STATES = ['not-interested', 'neutral', 'interested', 'going'];
+
 let events = [];
-let planned = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'));
+let plannedMap = new Map();
+
+// Load saved data; migrate old array-of-IDs format → new {id: state} object
+(function () {
+  const raw = localStorage.getItem(STORAGE_KEY);
+  if (!raw) return;
+  try {
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed)) {
+      parsed.forEach(id => plannedMap.set(id, 'going'));
+    } else {
+      Object.entries(parsed).forEach(([id, state]) => {
+        if (STATES.includes(state)) plannedMap.set(id, state);
+      });
+    }
+  } catch { /* ignore corrupt data */ }
+}());
 
 const STAGE_ORDER = [
   'Main Stage', 'Platform 2', 'Focus Platform', 'Yellow Stage',
@@ -11,57 +30,86 @@ const STAGE_ORDER = [
   'Train Tracks', 'Sponsor Arena'
 ];
 
-const SESSION_TYPES = ['keynote','talk','workshop','social','ceremony','other'];
+const SESSION_TYPES = ['keynote', 'talk', 'workshop', 'social', 'ceremony', 'other'];
 
-function savePlanned() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify([...planned]));
-  document.getElementById('planned-count').textContent = planned.size;
+function getState(id) {
+  return plannedMap.get(id) || 'neutral';
 }
 
-function togglePlanned(id) {
-  if (planned.has(id)) { planned.delete(id); } else { planned.add(id); }
+function setState(id, state) {
+  if (state === 'neutral') {
+    plannedMap.delete(id);
+  } else {
+    plannedMap.set(id, state);
+  }
   savePlanned();
   render();
 }
 
-document.addEventListener('click', function(e) {
+function promote(id) {
+  const idx = STATES.indexOf(getState(id));
+  if (idx < STATES.length - 1) setState(id, STATES[idx + 1]);
+}
+
+function demote(id) {
+  const idx = STATES.indexOf(getState(id));
+  if (idx > 0) setState(id, STATES[idx - 1]);
+}
+
+function savePlanned() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(Object.fromEntries(plannedMap)));
+  const count = [...plannedMap.values()].filter(s => s === 'interested' || s === 'going').length;
+  document.getElementById('planned-count').textContent = count || '';
+}
+
+document.addEventListener('click', function (e) {
   const card = e.target.closest('.card[data-eid]');
   if (!card) return;
   if (e.target.closest('a')) return; // let title links through
-  if (e.target.closest('.card-plan-btn')) {
-    togglePlanned(card.dataset.eid);
-    return;
-  }
-  // clicking anywhere else on the card opens the session URL
+  if (e.target.closest('.card-up-btn')) { promote(card.dataset.eid); return; }
+  if (e.target.closest('.card-down-btn')) { demote(card.dataset.eid); return; }
   const url = card.dataset.url;
   if (url) window.open(url, '_blank', 'noopener');
 });
 
 function eventId(e) {
-  return e.day + '|' + e.start + '|' + (e.stage||'') + '|' + e.title;
+  return e.day + '|' + e.start + '|' + (e.stage || '') + '|' + e.title;
+}
+
+function isSessionVisible(e) {
+  if (!SESSION_TYPES.includes(e.type)) return false;
+  const state = getState(eventId(e));
+  if (document.getElementById('filter-interesting').checked && state !== 'interested' && state !== 'going') return false;
+  if (document.getElementById('filter-hide-ni').checked && state === 'not-interested') return false;
+  return true;
 }
 
 function cardHTML(e, showStage) {
+  if (!isSessionVisible(e)) return '';
   const id = eventId(e);
-  const isPlanned = planned.has(id);
-  const filterOn = document.getElementById('filter-planned').checked;
-  if (filterOn && !isPlanned && SESSION_TYPES.includes(e.type)) return '';
+  const state = getState(id);
   const cardClass = [
     'card',
-    isPlanned ? 'planned' : '',
+    'state-' + state,
     e.type === 'keynote' ? 'keynote-type' : '',
     e.type === 'workshop' ? 'workshop-type' : ''
   ].filter(Boolean).join(' ');
   const titleHTML = e.url
     ? `<a href="${e.url}" target="_blank" rel="noopener">${e.title}</a>`
     : e.title;
-  const eid = id.replace(/&/g,'&amp;').replace(/"/g,'&quot;');
+  const eid = id.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
   const urlAttr = e.url ? ` data-url="${e.url}"` : '';
-  const cardTitle = e.url ? `Click to open session page` : `Click ✓ to add to plan`;
-  return `<div class="${cardClass}" data-eid="${eid}"${urlAttr} title="${cardTitle}">
-    <button class="card-plan-btn" aria-label="${isPlanned?'Remove from':'Add to'} plan">✓</button>
+  const downActive = state === 'not-interested' ? ' active' : '';
+  const upExtra = state === 'going' ? ' going' : state === 'interested' ? ' interested' : '';
+  const downTitle = state === 'not-interested' ? 'Not interested – click to restore' : 'Click to mark as not interested';
+  const upTitle = state === 'going' ? 'Going – click to demote' : state === 'interested' ? 'Interested – click to promote to Going' : 'Click to mark as interested';
+  return `<div class="${cardClass}" data-eid="${eid}"${urlAttr}${e.url ? ' title="Open session page"' : ''}>
+    <div class="card-state-btns">
+      <button class="card-down-btn${downActive}" title="${downTitle}" aria-label="${downTitle}">▼</button>
+      <button class="card-up-btn${upExtra}" title="${upTitle}" aria-label="${upTitle}">▲</button>
+    </div>
     ${e.type !== 'talk' ? `<div class="card-type ${e.type}">${e.type}</div>` : ''}
-    ${showStage ? `<div class="stage-label">${e.stage}</div>` : ''}
+    ${showStage && e.stage ? `<div class="stage-label">${e.stage}</div>` : ''}
     <div class="card-title">${titleHTML}</div>
     ${e.speakers && e.speakers.length ? `<div class="card-speakers">${e.speakers.join(', ')}</div>` : ''}
     <div class="card-time">${e.start}–${e.end}</div>
@@ -71,9 +119,9 @@ function cardHTML(e, showStage) {
 function renderDesktop(dayDate, containerId) {
   const container = document.getElementById(containerId);
   const dayEvents = events.filter(e => e.day === dayDate);
-  const filterOn = document.getElementById('filter-planned').checked;
 
-  const stages = STAGE_ORDER.filter(s => dayEvents.some(e => e.stage === s));
+  // Only show stages that have at least one visible session
+  const stages = STAGE_ORDER.filter(s => dayEvents.some(e => e.stage === s && isSessionVisible(e)));
   const timeSlots = [...new Set(dayEvents.map(e => e.start))].sort();
 
   let html = '<div class="grid-wrap"><table class="schedule"><thead><tr>';
@@ -91,10 +139,7 @@ function renderDesktop(dayDate, containerId) {
       continue;
     }
 
-    if (filterOn) {
-      const hasVisible = slotEvents.some(e => SESSION_TYPES.includes(e.type) && planned.has(eventId(e)));
-      if (!hasVisible) continue;
-    }
+    if (!slotEvents.some(e => isSessionVisible(e))) continue;
 
     html += `<tr><td class="time-cell">${time}</td>`;
     for (const stage of stages) {
@@ -115,7 +160,6 @@ function renderDesktop(dayDate, containerId) {
 function renderMobile(dayDate, containerId) {
   const container = document.getElementById(containerId);
   const dayEvents = events.filter(e => e.day === dayDate);
-  const filterOn = document.getElementById('filter-planned').checked;
   const timeSlots = [...new Set(dayEvents.map(e => e.start))].sort();
 
   let html = '';
@@ -149,22 +193,25 @@ function renderPlanned() {
     { date: '2026-06-05', label: 'Day 2 – Friday, June 5' }
   ];
 
-  if (planned.size === 0) {
-    container.innerHTML = '<div class="planned-empty">No talks planned yet.<br>Click any session card to add it to your plan.</div>';
+  const hasAny = [...plannedMap.values()].some(s => s === 'interested' || s === 'going');
+  if (!hasAny) {
+    container.innerHTML = '<div class="planned-empty">No sessions marked yet.<br>Use ▲ on any session to mark it as Interested or Going.</div>';
     return;
   }
 
   let html = '';
   for (const { date, label } of days) {
-    const dayPlanned = events
-      .filter(e => e.day === date && planned.has(eventId(e)))
-      .sort((a, b) => a.start.localeCompare(b.start));
-    if (dayPlanned.length === 0) continue;
-    html += `<div class="planned-day"><h3>${label}</h3><div class="planned-list">`;
-    html += dayPlanned.map(e => cardHTML(e, true)).join('');
-    html += '</div></div>';
+    for (const [state, stateLabel] of [['going', '✓ Going'], ['interested', '★ Interested']]) {
+      const group = events
+        .filter(e => e.day === date && getState(eventId(e)) === state)
+        .sort((a, b) => a.start.localeCompare(b.start));
+      if (group.length === 0) continue;
+      html += `<div class="planned-day"><h3>${label} — ${stateLabel}</h3><div class="planned-list">`;
+      html += group.map(e => cardHTML(e, true)).join('');
+      html += '</div></div>';
+    }
   }
-  container.innerHTML = html || '<div class="planned-empty">No talks planned yet.</div>';
+  container.innerHTML = html || '<div class="planned-empty">No sessions marked yet.</div>';
 }
 
 function render() {
@@ -190,7 +237,7 @@ fetch(DATA_URL)
   .then(r => r.json())
   .then(data => {
     events = data.events;
-    document.getElementById('planned-count').textContent = planned.size;
+    savePlanned();
     render();
   })
   .catch(err => {

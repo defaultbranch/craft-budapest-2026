@@ -21,14 +21,20 @@
 
 <div class="controls">
   <label>
-    <input type="checkbox" id="filter-planned" onchange="render()">
-    Show only planned talks
+    <input type="checkbox" id="filter-hide-ni" onchange="render()">
+    Hide not interested
   </label>
-  <span id="legend" style="margin-left:auto; display:flex; gap:8px;">
+  <label>
+    <input type="checkbox" id="filter-interesting" onchange="render()">
+    Show only interested / going
+  </label>
+  <span id="legend" style="margin-left:auto; display:flex; gap:8px; flex-wrap:wrap;">
     <span class="pill" style="background:var(--keynote-light);color:var(--keynote);">Keynote</span>
     <span class="pill" style="background:var(--workshop-light);color:var(--workshop);">Workshop</span>
     <span class="pill" style="background:var(--accent-light);color:var(--accent);">Talk</span>
-    <span class="pill planned">✓ Planned</span>
+    <span class="pill ni">✕ Not interested</span>
+    <span class="pill interested">★ Interested</span>
+    <span class="pill going">✓ Going</span>
   </span>
 </div>
 

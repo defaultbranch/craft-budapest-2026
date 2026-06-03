@@ -4,12 +4,11 @@
   --border: #dee2e6;
   --accent: #0d6efd;
   --accent-light: #cfe2ff;
-  --planned: #198754;
-  --planned-light: #d1e7dd;
-  --keynote: #6f42c1;
-  --keynote-light: #e8d5ff;
-  --workshop: #fd7e14;
-  --workshop-light: #ffe5cc;
+  --planned: #198754; --planned-light: #d1e7dd;
+  --ni: #dc3545; --ni-light: #fde8ea;
+  --interested: #b45309; --interested-light: #fef3c7;
+  --keynote: #6f42c1; --keynote-light: #e8d5ff;
+  --workshop: #fd7e14; --workshop-light: #ffe5cc;
   --break-bg: #f1f3f5;
   --text: #212529;
   --muted: #6c757d;
@@ -30,7 +29,9 @@ header h1 { font-size: 1.2rem; font-weight: 700; }
 .controls { display: flex; align-items: center; gap: 10px; padding: 12px 20px; background: #fff; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
 .controls label { display: flex; align-items: center; gap: 6px; font-size: .85rem; cursor: pointer; user-select: none; }
 .pill { display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px; border-radius: 20px; font-size: .75rem; font-weight: 600; }
-.pill.planned { background: var(--planned-light); color: var(--planned); }
+.pill.planned, .pill.going { background: var(--planned-light); color: var(--planned); }
+.pill.interested { background: var(--interested-light); color: var(--interested); }
+.pill.ni { background: var(--ni-light); color: var(--ni); }
 #planned-count { background: var(--planned-light); color: var(--planned); border-radius: 12px; padding: 2px 7px; font-size: .75rem; font-weight: 700; }
 
 /* ── DESKTOP GRID ── */
@@ -48,11 +49,18 @@ td.empty-cell { background: var(--bg); }
 .card { background: var(--card); border-radius: var(--radius); padding: 8px; margin: 3px; box-shadow: var(--shadow); cursor: default; transition: box-shadow .15s; position: relative; }
 .card[data-url] { cursor: pointer; }
 .card:hover { box-shadow: 0 3px 8px rgba(0,0,0,.14); }
-.card.planned { background: var(--planned-light); border-left: 3px solid var(--planned); }
+/* ── CARD STATE ── */
+.card.state-not-interested { background: var(--ni-light); border-left: 3px solid var(--ni); opacity: .7; }
+.card.state-interested { background: var(--interested-light); border-left: 3px solid var(--interested); }
+.card.state-going { background: var(--planned-light); border-left: 3px solid var(--planned); }
 .card.keynote-type { background: var(--keynote-light); border-left: 3px solid var(--keynote); }
-.card.keynote-type.planned { background: var(--planned-light); }
+.card.keynote-type.state-interested { background: var(--interested-light); border-left-color: var(--interested); }
+.card.keynote-type.state-going { background: var(--planned-light); border-left-color: var(--planned); }
+.card.keynote-type.state-not-interested { background: var(--ni-light); border-left-color: var(--ni); }
 .card.workshop-type { background: var(--workshop-light); border-left: 3px solid var(--workshop); }
-.card.workshop-type.planned { background: var(--planned-light); }
+.card.workshop-type.state-interested { background: var(--interested-light); border-left-color: var(--interested); }
+.card.workshop-type.state-going { background: var(--planned-light); border-left-color: var(--planned); }
+.card.workshop-type.state-not-interested { background: var(--ni-light); border-left-color: var(--ni); }
 .card-type { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; margin-bottom: 3px; }
 .card-type.keynote { color: var(--keynote); }
 .card-type.workshop { color: var(--workshop); }
@@ -62,9 +70,13 @@ td.empty-cell { background: var(--bg); }
 .card-title a:hover { text-decoration: underline; }
 .card-speakers { font-size: .75rem; color: var(--muted); }
 .card-time { font-size: .7rem; color: var(--muted); margin-top: 3px; }
-.card-plan-btn { position: absolute; top: 6px; right: 6px; background: none; border: 1px solid var(--border); border-radius: 50%; width: 22px; height: 22px; cursor: pointer; font-size: 12px; display: flex; align-items: center; justify-content: center; transition: background .15s; }
-.card-plan-btn:hover { background: var(--accent-light); }
-.card.planned .card-plan-btn { background: var(--planned); border-color: var(--planned); color: #fff; }
+.card-state-btns { position: absolute; top: 5px; right: 5px; display: flex; gap: 3px; }
+.card-down-btn, .card-up-btn { background: none; border: 1px solid var(--border); border-radius: 4px; width: 20px; height: 20px; cursor: pointer; font-size: 9px; display: flex; align-items: center; justify-content: center; transition: background .15s, border-color .15s, color .15s; padding: 0; color: var(--muted); }
+.card-down-btn:hover { background: var(--ni-light); border-color: var(--ni); color: var(--ni); }
+.card-down-btn.active { background: var(--ni); border-color: var(--ni); color: #fff; }
+.card-up-btn:hover { background: var(--interested-light); border-color: var(--interested); color: var(--interested); }
+.card-up-btn.interested { background: var(--interested); border-color: var(--interested); color: #fff; }
+.card-up-btn.going { background: var(--planned); border-color: var(--planned); color: #fff; }
 
 /* ── MOBILE (single column) ── */
 .mobile-view { display: none; padding: 12px; }
