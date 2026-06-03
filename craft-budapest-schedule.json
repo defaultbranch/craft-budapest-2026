@@ -24,7 +24,10 @@
       "stage": "Main Stage",
       "type": "keynote",
       "title": "Slow down to speed up",
-      "speakers": ["Gergely Orosz"]
+      "speakers": [
+        "Gergely Orosz"
+      ],
+      "url": "https://craft-conf.com/2026/talk/gergely-oroszs-talk"
     },
     {
       "day": "2026-06-04",
@@ -48,7 +51,10 @@
       "stage": "Main Stage",
       "type": "talk",
       "title": "The Shift to Agentic AI: From Concept to Practice",
-      "speakers": ["Reuven Cohen"]
+      "speakers": [
+        "Reuven Cohen"
+      ],
+      "url": "https://craft-conf.com/2026/talk/reuven-cohens-talk"
     },
     {
       "day": "2026-06-04",
@@ -57,7 +63,10 @@
       "stage": "Platform 2",
       "type": "talk",
       "title": "Turn the Sh*t Around – High-performance communication techniques for high-performing teams",
-      "speakers": ["Joseph Pelrine"]
+      "speakers": [
+        "Joseph Pelrine"
+      ],
+      "url": "https://craft-conf.com/2026/talk/joseph-pelrines-talk"
     },
     {
       "day": "2026-06-04",
@@ -66,7 +75,10 @@
       "stage": "Focus Platform",
       "type": "talk",
       "title": "The Awareness Layer – How Accelerated Engineering Forces Smarter Organizations",
-      "speakers": ["Robert Ranson"]
+      "speakers": [
+        "Robert Ranson"
+      ],
+      "url": "https://craft-conf.com/2026/talk/robert-ransons-talk"
     },
     {
       "day": "2026-06-04",
@@ -75,7 +87,10 @@
       "stage": "Yellow Stage",
       "type": "talk",
       "title": "How to survive and thrive as a dev (team) in the exponential age of AI",
-      "speakers": ["Sander Hoogendoorn"]
+      "speakers": [
+        "Sander Hoogendoorn"
+      ],
+      "url": "https://craft-conf.com/2026/talk/sander-hoogendoorns-talk"
     },
     {
       "day": "2026-06-04",
@@ -84,7 +99,10 @@
       "stage": "Telekom Stage",
       "type": "talk",
       "title": "Model Drift and Software Attractors",
-      "speakers": ["Barry O'Reilly"]
+      "speakers": [
+        "Barry O'Reilly"
+      ],
+      "url": "https://craft-conf.com/2026/talk/barry-oreillys-talk"
     },
     {
       "day": "2026-06-04",
@@ -93,7 +111,10 @@
       "stage": "Purple Stage",
       "type": "talk",
       "title": "Architecture in the Age of Autonomous Code",
-      "speakers": ["Matthew Clark"]
+      "speakers": [
+        "Matthew Clark"
+      ],
+      "url": "https://craft-conf.com/2026/talk/matthew-clarks-talk"
     },
     {
       "day": "2026-06-04",
@@ -102,7 +123,10 @@
       "stage": "Green Stage",
       "type": "talk",
       "title": "AI & I – The Architecture of Our Identity: Mapping the Possibles, Lovables, and Undiscussables",
-      "speakers": ["Xin Yao"]
+      "speakers": [
+        "Xin Yao"
+      ],
+      "url": "https://craft-conf.com/2026/talk/xin-yaos-talk"
     },
     {
       "day": "2026-06-04",
@@ -111,7 +135,10 @@
       "stage": "Innovation Stage",
       "type": "talk",
       "title": "Beyond the Pipeline: How Data Projects Drive Enterprise-Wide Business Transformation",
-      "speakers": ["Sam Matysen"]
+      "speakers": [
+        "Sam Matysen"
+      ],
+      "url": "https://craft-conf.com/2026/talk/beyond-the-pipeline-how-data-projects-drive-enterprise-wide-business-transformation"
     },
     {
       "day": "2026-06-04",
@@ -120,7 +147,10 @@
       "stage": "Podcast Stage",
       "type": "talk",
       "title": "Legacy code in the AI era",
-      "speakers": ["Michael Feathers"]
+      "speakers": [
+        "Michael Feathers"
+      ],
+      "url": "https://craft-conf.com/2026/talk/legacy-code-in-the-ai-era"
     },
     {
       "day": "2026-06-04",
@@ -129,7 +159,10 @@
       "stage": "Central Workshop Area",
       "type": "workshop",
       "title": "From Idea to an AI-Enabled SAP App",
-      "speakers": ["Gabor Timar"]
+      "speakers": [
+        "Gabor Timar"
+      ],
+      "url": "https://craft-conf.com/2026/workshop/from-idea-to-an-ai-enabled-sap-app"
     },
     {
       "day": "2026-06-04",
@@ -145,7 +178,9 @@
       "stage": "Sponsor Arena",
       "type": "social",
       "title": "Book signing by Gergely Orosz",
-      "speakers": ["Gergely Orosz"]
+      "speakers": [
+        "Gergely Orosz"
+      ]
     },
     {
       "day": "2026-06-04",
@@ -154,7 +189,10 @@
       "stage": "Main Stage",
       "type": "talk",
       "title": "Thinking like an Architect",
-      "speakers": ["Gregor Hohpe"]
+      "speakers": [
+        "Gregor Hohpe"
+      ],
+      "url": "https://craft-conf.com/2026/talk/gregor-hohpes-talk"
     },
     {
       "day": "2026-06-04",
@@ -163,7 +201,10 @@
       "stage": "Platform 2",
       "type": "talk",
       "title": "Beyond Vibe Coding: Building the Harness for Production Agents",
-      "speakers": ["Banjo Obayomi"]
+      "speakers": [
+        "Banjo Obayomi"
+      ],
+      "url": "https://craft-conf.com/2026/talk/banjo-obayomis-talk"
     },
     {
       "day": "2026-06-04",
@@ -172,7 +213,10 @@
       "stage": "Yellow Stage",
       "type": "talk",
       "title": "AI & Social Acceleration: Why are we faster yet falling behind?",
-      "speakers": ["Cat Swetel"]
+      "speakers": [
+        "Cat Swetel"
+      ],
+      "url": "https://craft-conf.com/2026/talk/cat-swetels-talk"
     },
     {
       "day": "2026-06-04",
@@ -181,7 +225,10 @@
       "stage": "Telekom Stage",
       "type": "talk",
       "title": "Why New Processes Don't Fix Delivery",
-      "speakers": ["Marian Hartman"]
+      "speakers": [
+        "Marian Hartman"
+      ],
+      "url": "https://craft-conf.com/2026/talk/marian-hartmans-talk"
     },
     {
       "day": "2026-06-04",
@@ -190,7 +237,10 @@
       "stage": "Purple Stage",
       "type": "talk",
       "title": "How to find bugs in systems that don't exist",
-      "speakers": ["Hillel Wayne"]
+      "speakers": [
+        "Hillel Wayne"
+      ],
+      "url": "https://craft-conf.com/2026/talk/hillel-waynes-talk"
     },
     {
       "day": "2026-06-04",
@@ -199,7 +249,10 @@
       "stage": "Innovation Stage",
       "type": "talk",
       "title": "From Single Database to Distributed: Scaling Real-Time Fraud Detection at SEON",
-      "speakers": ["Viktor Micskó"]
+      "speakers": [
+        "Viktor Micskó"
+      ],
+      "url": "https://craft-conf.com/2026/talk/from-single-database-to-distributed-scaling-real-time-fraud-detection-at-seon"
     },
     {
       "day": "2026-06-04",
@@ -208,7 +261,10 @@
       "stage": "Podcast Stage",
       "type": "talk",
       "title": "How Developers Still Have Jobs?",
-      "speakers": ["Kent Beck"]
+      "speakers": [
+        "Kent Beck"
+      ],
+      "url": "https://craft-conf.com/2026/talk/how-developers-still-have-jobs"
     },
     {
       "day": "2026-06-04",
@@ -224,7 +280,10 @@
       "stage": "Main Stage",
       "type": "talk",
       "title": "Ship the loop, not the product",
-      "speakers": ["James Hawkins"]
+      "speakers": [
+        "James Hawkins"
+      ],
+      "url": "https://craft-conf.com/2026/talk/james-hawkins-talk"
     },
     {
       "day": "2026-06-04",
@@ -233,7 +292,10 @@
       "stage": "Platform 2",
       "type": "talk",
       "title": "Responsibility Driven Design Revisited",
-      "speakers": ["Ian Cooper"]
+      "speakers": [
+        "Ian Cooper"
+      ],
+      "url": "https://craft-conf.com/2026/talk/ian-coopers-talk"
     },
     {
       "day": "2026-06-04",
@@ -242,7 +304,10 @@
       "stage": "Focus Platform",
       "type": "talk",
       "title": "From Idea to Model to Code",
-      "speakers": ["Martin Dilger"]
+      "speakers": [
+        "Martin Dilger"
+      ],
+      "url": "https://craft-conf.com/2026/talk/martin-dilgers-hands-on-session"
     },
     {
       "day": "2026-06-04",
@@ -251,7 +316,10 @@
       "stage": "Yellow Stage",
       "type": "talk",
       "title": "Software Workflow Optimization: The DDO Model",
-      "speakers": ["Titus Winters"]
+      "speakers": [
+        "Titus Winters"
+      ],
+      "url": "https://craft-conf.com/2026/talk/titus-winters-talk"
     },
     {
       "day": "2026-06-04",
@@ -260,7 +328,11 @@
       "stage": "Telekom Stage",
       "type": "talk",
       "title": "Debiasing Your Software Design Decision-Making",
-      "speakers": ["Kenny (Baas) Schwegler", "Evelyn van Kelle"]
+      "speakers": [
+        "Kenny (Baas) Schwegler",
+        "Evelyn van Kelle"
+      ],
+      "url": "https://craft-conf.com/2026/talk/kenny-and-evelyns-talk"
     },
     {
       "day": "2026-06-04",
@@ -269,7 +341,10 @@
       "stage": "Purple Stage",
       "type": "talk",
       "title": "Beyond autonomous teams: essence and accident in product development complexity",
-      "speakers": ["Simon Rohrer"]
+      "speakers": [
+        "Simon Rohrer"
+      ],
+      "url": "https://craft-conf.com/2026/talk/simon-rohrers-talk"
     },
     {
       "day": "2026-06-04",
@@ -278,7 +353,10 @@
       "stage": "Green Stage",
       "type": "talk",
       "title": "Re-engineering Software Delivery: Delivering with Supervised and Unsupervised Coding Agents",
-      "speakers": ["Wesley Reisz"]
+      "speakers": [
+        "Wesley Reisz"
+      ],
+      "url": "https://craft-conf.com/2026/talk/wesley-reisz-hands-on-session"
     },
     {
       "day": "2026-06-04",
@@ -287,7 +365,14 @@
       "stage": "Innovation Stage",
       "type": "talk",
       "title": "Diversity in the AI age",
-      "speakers": ["Gabriella Mátyás-Kollár", "Katalin Hornyik", "Rozália Miklós", "József Holderith", "Médea Baccifava"]
+      "speakers": [
+        "Gabriella Mátyás-Kollár",
+        "Katalin Hornyik",
+        "Rozália Miklós",
+        "József Holderith",
+        "Médea Baccifava"
+      ],
+      "url": "https://craft-conf.com/2026/talk/diversity-in-the-ai-age"
     },
     {
       "day": "2026-06-04",
@@ -296,7 +381,10 @@
       "stage": "Podcast Stage",
       "type": "talk",
       "title": "How to reinvent yourself in the face of disruption",
-      "speakers": ["Nickolas Means"]
+      "speakers": [
+        "Nickolas Means"
+      ],
+      "url": "https://craft-conf.com/2026/talk/how-to-reinvent-yourself-in-the-face-of-disruption"
     },
     {
       "day": "2026-06-04",
@@ -305,7 +393,14 @@
       "stage": "Tech Leaders' Lounge",
       "type": "talk",
       "title": "What Are We, Exactly? Redefining the Tech Manager Role",
-      "speakers": ["Cat Swetel", "Robert Ranson", "Arlo Belshee", "Emese Pogácsás", "Péter Szász"]
+      "speakers": [
+        "Cat Swetel",
+        "Robert Ranson",
+        "Arlo Belshee",
+        "Emese Pogácsás",
+        "Péter Szász"
+      ],
+      "url": "https://craft-conf.com/2026/talk/what-are-we-exactly-redefining-the-tech-manager-role"
     },
     {
       "day": "2026-06-04",
@@ -321,7 +416,10 @@
       "stage": "Central Workshop Area",
       "type": "workshop",
       "title": "Refactor Smarter, Not Harder: AI for Legacy Code",
-      "speakers": ["Gergely Ruzsics"]
+      "speakers": [
+        "Gergely Ruzsics"
+      ],
+      "url": "https://craft-conf.com/2026/workshop/refactor-smarter-not-harder-ai-for-legacy-code"
     },
     {
       "day": "2026-06-04",
@@ -330,7 +428,10 @@
       "stage": "Main Stage",
       "type": "talk",
       "title": "Taming the Unpredictable: Technical Leadership in Chaotic Times",
-      "speakers": ["Michelle Brush"]
+      "speakers": [
+        "Michelle Brush"
+      ],
+      "url": "https://craft-conf.com/2026/talk/michelle-brushs-talk"
     },
     {
       "day": "2026-06-04",
@@ -339,7 +440,10 @@
       "stage": "Platform 2",
       "type": "talk",
       "title": "Architecture AntiPatterns and Pitfalls",
-      "speakers": ["Mark Richards"]
+      "speakers": [
+        "Mark Richards"
+      ],
+      "url": "https://craft-conf.com/2026/talk/mark-richards-talk"
     },
     {
       "day": "2026-06-04",
@@ -348,7 +452,10 @@
       "stage": "Yellow Stage",
       "type": "talk",
       "title": "Compiling AI-Assisted Specs into Well-Typed Applications with F# and WebSharper",
-      "speakers": ["Adam Granicz"]
+      "speakers": [
+        "Adam Granicz"
+      ],
+      "url": "https://craft-conf.com/2026/talk/adam-graniczs-talk"
     },
     {
       "day": "2026-06-04",
@@ -357,7 +464,11 @@
       "stage": "Telekom Stage",
       "type": "talk",
       "title": "Who Is Actually Making the Architectural Decisions Right Now? Facilitating Architecture in an AI-Accelerated World",
-      "speakers": ["Kenny (Baas) Schwegler", "Evelyn van Kelle"]
+      "speakers": [
+        "Kenny (Baas) Schwegler",
+        "Evelyn van Kelle"
+      ],
+      "url": "https://craft-conf.com/2026/talk/kennys-talk"
     },
     {
       "day": "2026-06-04",
@@ -366,7 +477,10 @@
       "stage": "Purple Stage",
       "type": "talk",
       "title": "Code Health Guardian: Rigorous yet Sustainable Human Reviews in the AI Era",
-      "speakers": ["Artie Shevchenko"]
+      "speakers": [
+        "Artie Shevchenko"
+      ],
+      "url": "https://craft-conf.com/2026/talk/artie-shevchenkos-talk"
     },
     {
       "day": "2026-06-04",
@@ -375,7 +489,10 @@
       "stage": "Innovation Stage",
       "type": "talk",
       "title": "Is it really that expensive to build an AI system today?",
-      "speakers": ["Ivan Petrović"]
+      "speakers": [
+        "Ivan Petrović"
+      ],
+      "url": "https://craft-conf.com/2026/talk/is-it-really-that-expensive-to-build-an-ai-system-today"
     },
     {
       "day": "2026-06-04",
@@ -384,7 +501,10 @@
       "stage": "Podcast Stage",
       "type": "talk",
       "title": "Ethics of engineering in the age of AI",
-      "speakers": ["Ian Thomas"]
+      "speakers": [
+        "Ian Thomas"
+      ],
+      "url": "https://craft-conf.com/2026/talk/ethics-of-engineering-in-the-age-of-ai"
     },
     {
       "day": "2026-06-04",
@@ -408,7 +528,10 @@
       "stage": "Main Stage",
       "type": "talk",
       "title": "Harness Engineering: How to Build Software When Humans Steer and Agents Execute",
-      "speakers": ["Ryan Lopopolo"]
+      "speakers": [
+        "Ryan Lopopolo"
+      ],
+      "url": "https://craft-conf.com/2026/talk/ryan-lopopolos-talk"
     },
     {
       "day": "2026-06-04",
@@ -417,7 +540,10 @@
       "stage": "Platform 2",
       "type": "talk",
       "title": "Learning Programming in the Age of AI",
-      "speakers": ["Chelsea Troy"]
+      "speakers": [
+        "Chelsea Troy"
+      ],
+      "url": "https://craft-conf.com/2026/talk/chelsea-troys-talk"
     },
     {
       "day": "2026-06-04",
@@ -426,7 +552,10 @@
       "stage": "Focus Platform",
       "type": "talk",
       "title": "Cognitum: Building Intelligence at the Hardware Layer",
-      "speakers": ["Reuven Cohen"]
+      "speakers": [
+        "Reuven Cohen"
+      ],
+      "url": "https://craft-conf.com/2026/talk/reuven-cohens-hands-on-session"
     },
     {
       "day": "2026-06-04",
@@ -435,7 +564,10 @@
       "stage": "Yellow Stage",
       "type": "talk",
       "title": "Principle Misunderstandings",
-      "speakers": ["Kevlin Henney"]
+      "speakers": [
+        "Kevlin Henney"
+      ],
+      "url": "https://craft-conf.com/2026/talk/kevlin-henneys-talk"
     },
     {
       "day": "2026-06-04",
@@ -444,7 +576,10 @@
       "stage": "Telekom Stage",
       "type": "talk",
       "title": "Taste: The main advantage in AI",
-      "speakers": ["Tejas Kumar"]
+      "speakers": [
+        "Tejas Kumar"
+      ],
+      "url": "https://craft-conf.com/2026/talk/tejas-kumars-talk"
     },
     {
       "day": "2026-06-04",
@@ -453,7 +588,10 @@
       "stage": "Purple Stage",
       "type": "talk",
       "title": "How To Teach Your Agents About Architecture",
-      "speakers": ["Neal Ford"]
+      "speakers": [
+        "Neal Ford"
+      ],
+      "url": "https://craft-conf.com/2026/talk/neal-fords-talk"
     },
     {
       "day": "2026-06-04",
@@ -462,7 +600,10 @@
       "stage": "Green Stage",
       "type": "talk",
       "title": "Distributed agents that survive anything",
-      "speakers": ["Daniel Vigovszky"]
+      "speakers": [
+        "Daniel Vigovszky"
+      ],
+      "url": "https://craft-conf.com/2026/talk/daniel-vigovszkys-hands-on-session"
     },
     {
       "day": "2026-06-04",
@@ -471,7 +612,14 @@
       "stage": "Innovation Stage",
       "type": "talk",
       "title": "From idea to impact: building successful products in the Agentic AI era",
-      "speakers": ["Emese Pogácsás", "Richárd Román", "István Szabó", "Zsuzsa Kovács", "Tamás Németh"]
+      "speakers": [
+        "Emese Pogácsás",
+        "Richárd Román",
+        "István Szabó",
+        "Zsuzsa Kovács",
+        "Tamás Németh"
+      ],
+      "url": "https://craft-conf.com/2026/talk/from-idea-to-impact-building-successful-products-in-the-agentic-ai-era"
     },
     {
       "day": "2026-06-04",
@@ -480,7 +628,10 @@
       "stage": "Podcast Stage",
       "type": "talk",
       "title": "How to weigh AI, human intuition, and engineering?",
-      "speakers": ["Evelyn van Kelle"]
+      "speakers": [
+        "Evelyn van Kelle"
+      ],
+      "url": "https://craft-conf.com/2026/talk/how-to-weigh-ai-human-intuition-and-engineering"
     },
     {
       "day": "2026-06-04",
@@ -496,7 +647,10 @@
       "stage": "Main Stage",
       "type": "talk",
       "title": "Am I holding this right?",
-      "speakers": ["Daniel Terhorst-North"]
+      "speakers": [
+        "Daniel Terhorst-North"
+      ],
+      "url": "https://craft-conf.com/2026/talk/dan-norths-talk"
     },
     {
       "day": "2026-06-04",
@@ -505,7 +659,10 @@
       "stage": "Platform 2",
       "type": "talk",
       "title": "Building 10x Organizations using Modern Productivity Metrics",
-      "speakers": ["Justin Reock"]
+      "speakers": [
+        "Justin Reock"
+      ],
+      "url": "https://craft-conf.com/2026/talk/justin-reocks-talk"
     },
     {
       "day": "2026-06-04",
@@ -514,7 +671,10 @@
       "stage": "Yellow Stage",
       "type": "talk",
       "title": "An Introduction to Infrastructure for AI",
-      "speakers": ["Bryan Oliver"]
+      "speakers": [
+        "Bryan Oliver"
+      ],
+      "url": "https://craft-conf.com/2026/talk/bryan-olivers-talk"
     },
     {
       "day": "2026-06-04",
@@ -523,7 +683,10 @@
       "stage": "Telekom Stage",
       "type": "talk",
       "title": "From Templates to Conversations: Automating Support in Fintech",
-      "speakers": ["Balázs Csintalan"]
+      "speakers": [
+        "Balázs Csintalan"
+      ],
+      "url": "https://craft-conf.com/2026/talk/balazs-csintalans-talk"
     },
     {
       "day": "2026-06-04",
@@ -532,7 +695,10 @@
       "stage": "Purple Stage",
       "type": "talk",
       "title": "Building the Verification Sandwich: Policy-as-Code for Every Agent",
-      "speakers": ["Matthew Maisel"]
+      "speakers": [
+        "Matthew Maisel"
+      ],
+      "url": "https://craft-conf.com/2026/talk/matthew-maisels-talk"
     },
     {
       "day": "2026-06-04",
@@ -541,7 +707,11 @@
       "stage": "Innovation Stage",
       "type": "talk",
       "title": "Get your systems to define the story of your organization. Is it work surveillance, or hyperoptimized operational excellence?",
-      "speakers": ["Ádám Kovács", "Klara Hermesz"]
+      "speakers": [
+        "Ádám Kovács",
+        "Klara Hermesz"
+      ],
+      "url": "https://craft-conf.com/2026/talk/get-your-systems-to-define-the-story-of-your-organization-is-it-work-surveillance-or-hyperoptimized-operational-excellence"
     },
     {
       "day": "2026-06-04",
@@ -557,7 +727,10 @@
       "stage": "Main Stage",
       "type": "keynote",
       "title": "How to Change Your Life",
-      "speakers": ["Veronica Lynn Clark"]
+      "speakers": [
+        "Veronica Lynn Clark"
+      ],
+      "url": "https://craft-conf.com/2026/talk/veronica-clarks-talk"
     },
     {
       "day": "2026-06-04",
@@ -573,7 +746,9 @@
       "stage": "Sponsor Arena",
       "type": "social",
       "title": "Book signing by Veronica Clark",
-      "speakers": ["Veronica Lynn Clark"]
+      "speakers": [
+        "Veronica Lynn Clark"
+      ]
     },
     {
       "day": "2026-06-04",
@@ -613,7 +788,10 @@
       "stage": "Main Stage",
       "type": "keynote",
       "title": "Forest & Desert & Genie",
-      "speakers": ["Kent Beck"]
+      "speakers": [
+        "Kent Beck"
+      ],
+      "url": "https://craft-conf.com/2026/talk/kent-becks-talk"
     },
     {
       "day": "2026-06-05",
@@ -629,7 +807,10 @@
       "stage": "Main Stage",
       "type": "talk",
       "title": "Working Effectively with AI-Generated Code",
-      "speakers": ["Michael Feathers"]
+      "speakers": [
+        "Michael Feathers"
+      ],
+      "url": "https://craft-conf.com/2026/talk/michael-feathers-talk"
     },
     {
       "day": "2026-06-05",
@@ -638,7 +819,10 @@
       "stage": "Platform 2",
       "type": "talk",
       "title": "Fully Automated Luxury Gay Space Communism: a brief how-to",
-      "speakers": ["Ashi Krishnan"]
+      "speakers": [
+        "Ashi Krishnan"
+      ],
+      "url": "https://craft-conf.com/2026/talk/ashi-krishnans-talk"
     },
     {
       "day": "2026-06-05",
@@ -647,7 +831,10 @@
       "stage": "Focus Platform",
       "type": "talk",
       "title": "TDD in the AI Era: No Vibes, Just Velocity",
-      "speakers": ["Barry S. Stahl"]
+      "speakers": [
+        "Barry S. Stahl"
+      ],
+      "url": "https://craft-conf.com/2026/talk/barry-s-stahls-hands-on-session"
     },
     {
       "day": "2026-06-05",
@@ -656,7 +843,10 @@
       "stage": "Yellow Stage",
       "type": "talk",
       "title": "Enjoying programming in the age of AI",
-      "speakers": ["Ilyas Landikov"]
+      "speakers": [
+        "Ilyas Landikov"
+      ],
+      "url": "https://craft-conf.com/2026/talk/ilyas-landikovs-talk"
     },
     {
       "day": "2026-06-05",
@@ -665,7 +855,10 @@
       "stage": "Telekom Stage",
       "type": "talk",
       "title": "Team dynamics after AI",
-      "speakers": ["Duncan Brown"]
+      "speakers": [
+        "Duncan Brown"
+      ],
+      "url": "https://craft-conf.com/2026/talk/duncan-browns-talk"
     },
     {
       "day": "2026-06-05",
@@ -674,7 +867,10 @@
       "stage": "Purple Stage",
       "type": "talk",
       "title": "From Idea to Event Model to Code – and Back",
-      "speakers": ["Martin Dilger"]
+      "speakers": [
+        "Martin Dilger"
+      ],
+      "url": "https://craft-conf.com/2026/talk/martin-dilgers-talk"
     },
     {
       "day": "2026-06-05",
@@ -683,7 +879,10 @@
       "stage": "Green Stage",
       "type": "talk",
       "title": "Patterns for Coding with AI",
-      "speakers": ["Lada Kesseler"]
+      "speakers": [
+        "Lada Kesseler"
+      ],
+      "url": "https://craft-conf.com/2026/talk/lada-kesselers-hands-on"
     },
     {
       "day": "2026-06-05",
@@ -692,7 +891,10 @@
       "stage": "Innovation Stage",
       "type": "talk",
       "title": "Artificial Intelligence, Actual Culture: Renegotiating Work in the AI Era",
-      "speakers": ["Zach Pendleton"]
+      "speakers": [
+        "Zach Pendleton"
+      ],
+      "url": "https://craft-conf.com/2026/talk/artificial-intelligence-actual-culture-renegotiating-work-in-the-ai-era"
     },
     {
       "day": "2026-06-05",
@@ -701,7 +903,11 @@
       "stage": "Podcast Stage",
       "type": "talk",
       "title": "How to Stay Human in a High-Pressure World",
-      "speakers": ["Joseph Pelrine", "Kenny (Baas) Schwegler"]
+      "speakers": [
+        "Joseph Pelrine",
+        "Kenny (Baas) Schwegler"
+      ],
+      "url": "https://craft-conf.com/2026/talk/influencing-systemic-change-through-leadership"
     },
     {
       "day": "2026-06-05",
@@ -710,7 +916,14 @@
       "stage": "Tech Leaders' Lounge",
       "type": "talk",
       "title": "What Do I Do With My Developers? Product Ownership, Agentic Craft, and Shifting Expectations",
-      "speakers": ["Gojko Adzic", "Reuven Cohen", "Daniel Terhorst-North", "Emese Pogácsás", "Péter Szász"]
+      "speakers": [
+        "Gojko Adzic",
+        "Reuven Cohen",
+        "Daniel Terhorst-North",
+        "Emese Pogácsás",
+        "Péter Szász"
+      ],
+      "url": "https://craft-conf.com/2026/talk/what-do-i-do-with-my-developers-product-ownership-agentic-craft-and-shifting-expectations"
     },
     {
       "day": "2026-06-05",
@@ -719,7 +932,11 @@
       "stage": "Central Workshop Area",
       "type": "workshop",
       "title": "AI@Allianz: Shape the Future – Challenge Our Next AI Initiatives",
-      "speakers": ["Zoltán Kukovecz", "Balázs Bábos"]
+      "speakers": [
+        "Zoltán Kukovecz",
+        "Balázs Bábos"
+      ],
+      "url": "https://craft-conf.com/2026/workshop/ai-at-allianz-shape-the-future-challenge-our-next-ai-initiatives"
     },
     {
       "day": "2026-06-05",
@@ -735,7 +952,10 @@
       "stage": "Main Stage",
       "type": "talk",
       "title": "114 Miles to the Final Cut",
-      "speakers": ["Nickolas Means"]
+      "speakers": [
+        "Nickolas Means"
+      ],
+      "url": "https://craft-conf.com/2026/talk/nickolas-means-talk"
     },
     {
       "day": "2026-06-05",
@@ -744,7 +964,10 @@
       "stage": "Platform 2",
       "type": "talk",
       "title": "Governance Without the Red Tape",
-      "speakers": ["Sarah Wells"]
+      "speakers": [
+        "Sarah Wells"
+      ],
+      "url": "https://craft-conf.com/2026/talk/sarah-wells-talk"
     },
     {
       "day": "2026-06-05",
@@ -753,7 +976,10 @@
       "stage": "Yellow Stage",
       "type": "talk",
       "title": "Christopher Grainger's Talk",
-      "speakers": ["Christopher Grainger"]
+      "speakers": [
+        "Christopher Grainger"
+      ],
+      "url": "https://craft-conf.com/2026/talk/christopher-graingers-talk"
     },
     {
       "day": "2026-06-05",
@@ -762,7 +988,10 @@
       "stage": "Telekom Stage",
       "type": "talk",
       "title": "How Durable Computing is Reshaping Distributed Systems",
-      "speakers": ["Jeremy Edberg"]
+      "speakers": [
+        "Jeremy Edberg"
+      ],
+      "url": "https://craft-conf.com/2026/talk/jeremy-edbergs-talk"
     },
     {
       "day": "2026-06-05",
@@ -771,7 +1000,10 @@
       "stage": "Purple Stage",
       "type": "talk",
       "title": "AI-Friendly Code: Your Code Is an AI Crime Scene",
-      "speakers": ["Adam Tornhill"]
+      "speakers": [
+        "Adam Tornhill"
+      ],
+      "url": "https://craft-conf.com/2026/talk/adam-tornhills-talk"
     },
     {
       "day": "2026-06-05",
@@ -780,7 +1012,11 @@
       "stage": "Innovation Stage",
       "type": "talk",
       "title": "Tier 0 Engineering at Tesco Technology",
-      "speakers": ["János Csorvási", "Julia Raksimowicz"]
+      "speakers": [
+        "János Csorvási",
+        "Julia Raksimowicz"
+      ],
+      "url": "https://craft-conf.com/2026/talk/tier-0-engineering-at-tesco-technology"
     },
     {
       "day": "2026-06-05",
@@ -789,7 +1025,11 @@
       "stage": "Podcast Stage",
       "type": "talk",
       "title": "What will happen with juniors now?",
-      "speakers": ["Emese Pogácsás", "Péter Szász"]
+      "speakers": [
+        "Emese Pogácsás",
+        "Péter Szász"
+      ],
+      "url": "https://craft-conf.com/2026/talk/what-will-happen-with-juniors-now"
     },
     {
       "day": "2026-06-05",
@@ -805,7 +1045,10 @@
       "stage": "Main Stage",
       "type": "talk",
       "title": "Keeping humans in the loop with AI coding agents",
-      "speakers": ["Gojko Adzic"]
+      "speakers": [
+        "Gojko Adzic"
+      ],
+      "url": "https://craft-conf.com/2026/talk/gojko-adzics-talk"
     },
     {
       "day": "2026-06-05",
@@ -814,7 +1057,10 @@
       "stage": "Platform 2",
       "type": "talk",
       "title": "Computer vision beyond cameras – how robots can see with radars?",
-      "speakers": ["Andras Palffy"]
+      "speakers": [
+        "Andras Palffy"
+      ],
+      "url": "https://craft-conf.com/2026/talk/andras-palffys-talk"
     },
     {
       "day": "2026-06-05",
@@ -823,7 +1069,10 @@
       "stage": "Focus Platform",
       "type": "talk",
       "title": "Quality Engineering in the Agentic Age: Build, Test, Orchestrate",
-      "speakers": ["Dragan Spiridonov"]
+      "speakers": [
+        "Dragan Spiridonov"
+      ],
+      "url": "https://craft-conf.com/2026/talk/dragan-spiridonovs-hands-on-session"
     },
     {
       "day": "2026-06-05",
@@ -832,7 +1081,10 @@
       "stage": "Yellow Stage",
       "type": "talk",
       "title": "Staying at the Exponential: Mastering Claude Code",
-      "speakers": ["Kashyap Murali"]
+      "speakers": [
+        "Kashyap Murali"
+      ],
+      "url": "https://craft-conf.com/2026/talk/kashyap-muralis-talk-2"
     },
     {
       "day": "2026-06-05",
@@ -841,7 +1093,10 @@
       "stage": "Telekom Stage",
       "type": "talk",
       "title": "Careless by Design: AI with Zero Bugs in Ugly Code",
-      "speakers": ["Arlo Belshee"]
+      "speakers": [
+        "Arlo Belshee"
+      ],
+      "url": "https://craft-conf.com/2026/talk/arlo-belshees-talk"
     },
     {
       "day": "2026-06-05",
@@ -850,7 +1105,10 @@
       "stage": "Purple Stage",
       "type": "talk",
       "title": "AI Native Engineering",
-      "speakers": ["Ian Thomas"]
+      "speakers": [
+        "Ian Thomas"
+      ],
+      "url": "https://craft-conf.com/2026/talk/ian-thomas-talk"
     },
     {
       "day": "2026-06-05",
@@ -859,7 +1117,10 @@
       "stage": "Green Stage",
       "type": "workshop",
       "title": "The Eight Desires Workshop",
-      "speakers": ["Veronica Lynn Clark"]
+      "speakers": [
+        "Veronica Lynn Clark"
+      ],
+      "url": "https://craft-conf.com/2026/talk/veronika-clarks-hands-on-session"
     },
     {
       "day": "2026-06-05",
@@ -868,7 +1129,10 @@
       "stage": "Innovation Stage",
       "type": "talk",
       "title": "Monte Carlo for SaaS: Simulating The Effect Of Product Decisions",
-      "speakers": ["Zoltán Dávid"]
+      "speakers": [
+        "Zoltán Dávid"
+      ],
+      "url": "https://craft-conf.com/2026/talk/monte-carlo-for-saas-simulating-the-effect-of-product-decisions"
     },
     {
       "day": "2026-06-05",
@@ -877,7 +1141,10 @@
       "stage": "Podcast Stage",
       "type": "talk",
       "title": "How to plug AI into your team? Practical tips",
-      "speakers": ["Xin Yao"]
+      "speakers": [
+        "Xin Yao"
+      ],
+      "url": "https://craft-conf.com/2026/talk/how-to-plug-ai-into-your-team-practical-tips"
     },
     {
       "day": "2026-06-05",
@@ -886,7 +1153,10 @@
       "stage": "Central Workshop Area",
       "type": "workshop",
       "title": "Use AI Potential, Build Organizational Capability",
-      "speakers": ["Ádám Molnár"]
+      "speakers": [
+        "Ádám Molnár"
+      ],
+      "url": "https://craft-conf.com/2026/workshop/use-ai-potential-build-organizational-capability"
     },
     {
       "day": "2026-06-05",
@@ -902,7 +1172,10 @@
       "stage": "Main Stage",
       "type": "talk",
       "title": "Tools for Certainty, Claws for Discovery: Lessons from Building NemoClaw",
-      "speakers": ["Aaron Erickson"]
+      "speakers": [
+        "Aaron Erickson"
+      ],
+      "url": "https://craft-conf.com/2026/talk/aaron-ericksons-talk"
     },
     {
       "day": "2026-06-05",
@@ -911,7 +1184,10 @@
       "stage": "Platform 2",
       "type": "talk",
       "title": "Platform as a Product: A dive into the Technical Foundations",
-      "speakers": ["Abby Bangser"]
+      "speakers": [
+        "Abby Bangser"
+      ],
+      "url": "https://craft-conf.com/2026/talk/abby-bangsers-talk"
     },
     {
       "day": "2026-06-05",
@@ -920,7 +1196,10 @@
       "stage": "Yellow Stage",
       "type": "talk",
       "title": "Coding Agents Don't Scale Themselves. Neither Do Your Teams. The Rise of Agent Enablement.",
-      "speakers": ["Patrick Debois"]
+      "speakers": [
+        "Patrick Debois"
+      ],
+      "url": "https://craft-conf.com/2026/talk/coding-agents-dont-scale-themselves-neither-do-your-teamsthe-rise-of-agent-enablement"
     },
     {
       "day": "2026-06-05",
@@ -929,7 +1208,10 @@
       "stage": "Telekom Stage",
       "type": "talk",
       "title": "Pulling Continuous Delivery inside the agentic loop",
-      "speakers": ["Kief Morris"]
+      "speakers": [
+        "Kief Morris"
+      ],
+      "url": "https://craft-conf.com/2026/talk/kief-morris-talk"
     },
     {
       "day": "2026-06-05",
@@ -938,7 +1220,10 @@
       "stage": "Purple Stage",
       "type": "talk",
       "title": "Code World Model: Building World Models for Computation",
-      "speakers": ["Jacob Kahn"]
+      "speakers": [
+        "Jacob Kahn"
+      ],
+      "url": "https://craft-conf.com/2026/talk/jacob-kahns-talk"
     },
     {
       "day": "2026-06-05",
@@ -947,7 +1232,10 @@
       "stage": "Innovation Stage",
       "type": "talk",
       "title": "AI in 6G mobile networks",
-      "speakers": ["Benedek Kovács"]
+      "speakers": [
+        "Benedek Kovács"
+      ],
+      "url": "https://craft-conf.com/2026/talk/ai-in-6g-mobile-networks"
     },
     {
       "day": "2026-06-05",
@@ -956,7 +1244,10 @@
       "stage": "Podcast Stage",
       "type": "talk",
       "title": "State of Engineering Management",
-      "speakers": ["Gergely Orosz"]
+      "speakers": [
+        "Gergely Orosz"
+      ],
+      "url": "https://craft-conf.com/2026/talk/state-of-engineering-management"
     },
     {
       "day": "2026-06-05",
@@ -965,7 +1256,10 @@
       "stage": "Central Workshop Area",
       "type": "workshop",
       "title": "Refactor Smarter, Not Harder: AI for Legacy Code",
-      "speakers": ["Gergely Ruzsics"]
+      "speakers": [
+        "Gergely Ruzsics"
+      ],
+      "url": "https://craft-conf.com/2026/workshop/refactor-smarter-not-harder-ai-for-legacy-code"
     },
     {
       "day": "2026-06-05",
@@ -981,7 +1275,10 @@
       "stage": "Main Stage",
       "type": "talk",
       "title": "AI Won't Eat Your Stack: Why Robust Components Matter More Than Ever",
-      "speakers": ["Randy Shoup"]
+      "speakers": [
+        "Randy Shoup"
+      ],
+      "url": "https://craft-conf.com/2026/talk/randy-shoups-talk"
     },
     {
       "day": "2026-06-05",
@@ -990,7 +1287,10 @@
       "stage": "Platform 2",
       "type": "talk",
       "title": "From Harness Engineering to Convergence",
-      "speakers": ["Gergely Hodicska"]
+      "speakers": [
+        "Gergely Hodicska"
+      ],
+      "url": "https://craft-conf.com/2026/talk/felho-talk"
     },
     {
       "day": "2026-06-05",
@@ -999,7 +1299,10 @@
       "stage": "Focus Platform",
       "type": "talk",
       "title": "Building Your AI Security Framework",
-      "speakers": ["Adam Litter"]
+      "speakers": [
+        "Adam Litter"
+      ],
+      "url": "https://craft-conf.com/2026/talk/adam-litters-hands-on-session"
     },
     {
       "day": "2026-06-05",
@@ -1008,7 +1311,10 @@
       "stage": "Yellow Stage",
       "type": "talk",
       "title": "Engineering Agentic AI: Coordinated Agents on Structured Infrastructure",
-      "speakers": ["Florin Coros"]
+      "speakers": [
+        "Florin Coros"
+      ],
+      "url": "https://craft-conf.com/2026/talk/florin-coros-talk"
     },
     {
       "day": "2026-06-05",
@@ -1017,7 +1323,10 @@
       "stage": "Telekom Stage",
       "type": "talk",
       "title": "Craft Still Matters",
-      "speakers": ["Gregor Riegler"]
+      "speakers": [
+        "Gregor Riegler"
+      ],
+      "url": "https://craft-conf.com/2026/talk/craft-still-matters"
     },
     {
       "day": "2026-06-05",
@@ -1026,7 +1335,10 @@
       "stage": "Purple Stage",
       "type": "talk",
       "title": "Journaling with AI",
-      "speakers": ["Llewellyn Falco"]
+      "speakers": [
+        "Llewellyn Falco"
+      ],
+      "url": "https://craft-conf.com/2026/talk/llewellyn-falcos-talk"
     },
     {
       "day": "2026-06-05",
@@ -1035,7 +1347,10 @@
       "stage": "Green Stage",
       "type": "talk",
       "title": "Inside the Brain of the Top 1% AI Companies",
-      "speakers": ["Márton Szabó"]
+      "speakers": [
+        "Márton Szabó"
+      ],
+      "url": "https://craft-conf.com/2026/talk/marton-szabos-hands-on-session"
     },
     {
       "day": "2026-06-05",
@@ -1044,7 +1359,10 @@
       "stage": "Innovation Stage",
       "type": "talk",
       "title": "Agents Need Names: Trust at the age of agentic web",
-      "speakers": ["Balázs Némethi"]
+      "speakers": [
+        "Balázs Némethi"
+      ],
+      "url": "https://craft-conf.com/2026/talk/agents-need-names-trust-at-the-age-of-agentic-web"
     },
     {
       "day": "2026-06-05",

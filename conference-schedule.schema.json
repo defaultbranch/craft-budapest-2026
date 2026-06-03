@@ -82,6 +82,11 @@
           "description": "Title or name of the event.",
           "minLength": 1
         },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to the session detail page. Omitted for events without a dedicated page (breaks, logistics, etc.)."
+        },
         "speakers": {
           "type": "array",
           "description": "Names of the speaker(s). Empty array for events with no speaker (breaks, logistics, etc.).",
