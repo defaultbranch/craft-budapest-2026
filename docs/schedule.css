@@ -45,7 +45,8 @@ td.break-cell { background: var(--break-bg); text-align: center; color: var(--mu
 td.empty-cell { background: var(--bg); }
 
 /* ── CARD ── */
-.card { background: var(--card); border-radius: var(--radius); padding: 8px; margin: 3px; box-shadow: var(--shadow); cursor: pointer; transition: box-shadow .15s; position: relative; }
+.card { background: var(--card); border-radius: var(--radius); padding: 8px; margin: 3px; box-shadow: var(--shadow); cursor: default; transition: box-shadow .15s; position: relative; }
+.card[data-url] { cursor: pointer; }
 .card:hover { box-shadow: 0 3px 8px rgba(0,0,0,.14); }
 .card.planned { background: var(--planned-light); border-left: 3px solid var(--planned); }
 .card.keynote-type { background: var(--keynote-light); border-left: 3px solid var(--keynote); }

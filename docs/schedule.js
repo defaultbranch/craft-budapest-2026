@@ -27,8 +27,14 @@ function togglePlanned(id) {
 document.addEventListener('click', function(e) {
   const card = e.target.closest('.card[data-eid]');
   if (!card) return;
-  if (e.target.closest('a')) return; // let links through
-  togglePlanned(card.dataset.eid);
+  if (e.target.closest('a')) return; // let title links through
+  if (e.target.closest('.card-plan-btn')) {
+    togglePlanned(card.dataset.eid);
+    return;
+  }
+  // clicking anywhere else on the card opens the session URL
+  const url = card.dataset.url;
+  if (url) window.open(url, '_blank', 'noopener');
 });
 
 function eventId(e) {
@@ -50,7 +56,9 @@ function cardHTML(e, showStage) {
     ? `<a href="${e.url}" target="_blank" rel="noopener">${e.title}</a>`
     : e.title;
   const eid = id.replace(/&/g,'&amp;').replace(/"/g,'&quot;');
-  return `<div class="${cardClass}" data-eid="${eid}" title="Click to ${isPlanned?'remove from':'add to'} plan">
+  const urlAttr = e.url ? ` data-url="${e.url}"` : '';
+  const cardTitle = e.url ? `Click to open session page` : `Click ✓ to add to plan`;
+  return `<div class="${cardClass}" data-eid="${eid}"${urlAttr} title="${cardTitle}">
     <button class="card-plan-btn" aria-label="${isPlanned?'Remove from':'Add to'} plan">✓</button>
     ${e.type !== 'talk' ? `<div class="card-type ${e.type}">${e.type}</div>` : ''}
     ${showStage ? `<div class="stage-label">${e.stage}</div>` : ''}
