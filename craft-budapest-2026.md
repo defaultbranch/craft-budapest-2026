@@ -16,7 +16,6 @@ An international, festival-like conference dedicated to the art and science of s
 - **Commute from Puskás Ferenc Stadion (~30 min):**
   1. Tram 1 eastbound → **Vágány utca / Róbert Károly körút** (6 stops, ~7 min)
   2. Bus 30 / 230 / 30A northbound → **Kucsma utca** (6 stops, ~7 min)
-  3. Short walks between stops and to venue
 
 ## Keynote Speakers
 
@@ -30,3 +29,8 @@ An international, festival-like conference dedicated to the art and science of s
 - "Building blocks of a Meta-Harness: leading into ruFlo on day 2" – Robert Ranson
 - "From Building Blocks to Boundless Creation (Hands-On with RuVector)" – Reuven Cohen
 - "Drawing like an Architect: Diagrams for Human Insight" – Gregor Hohpe
+
+## Program
+
+- [Day 1 – Thursday, June 4](craft-budapest-day-1.md)
+- [Day 2 – Friday, June 5](craft-budapest-day-2.md)
