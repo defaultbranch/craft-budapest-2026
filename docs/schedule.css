@@ -47,7 +47,6 @@ td.empty-cell { background: var(--bg); }
 
 /* ── CARD ── */
 .card { background: var(--card); border-radius: var(--radius); padding: 8px; margin: 3px; box-shadow: var(--shadow); cursor: default; transition: box-shadow .15s; position: relative; }
-.card[data-url] { cursor: pointer; }
 .card:hover { box-shadow: 0 3px 8px rgba(0,0,0,.14); }
 /* ── CARD STATE ── */
 .card.state-not-interested { background: var(--ni-light); border-left: 3px solid var(--ni); opacity: .7; }
@@ -70,6 +69,8 @@ td.empty-cell { background: var(--bg); }
 .card-title a:hover { text-decoration: underline; }
 .card-speakers { font-size: .75rem; color: var(--muted); }
 .card-time { font-size: .7rem; color: var(--muted); margin-top: 3px; }
+.card-details-btn { display: inline-block; margin-top: 5px; font-size: .72rem; font-weight: 600; color: var(--accent); text-decoration: none; border: 1px solid var(--accent-light); border-radius: 4px; padding: 1px 7px; transition: background .15s; }
+.card-details-btn:hover { background: var(--accent-light); }
 .card-state-btns { position: absolute; top: 5px; right: 5px; display: flex; gap: 3px; }
 .card-down-btn, .card-up-btn { background: none; border: 1px solid var(--border); border-radius: 4px; width: 20px; height: 20px; cursor: pointer; font-size: 9px; display: flex; align-items: center; justify-content: center; transition: background .15s, border-color .15s, color .15s; padding: 0; color: var(--muted); }
 .card-down-btn:hover { background: var(--ni-light); border-color: var(--ni); color: var(--ni); }

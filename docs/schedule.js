@@ -68,8 +68,7 @@ document.addEventListener('click', function (e) {
   if (e.target.closest('a')) return; // let title links through
   if (e.target.closest('.card-up-btn')) { promote(card.dataset.eid); return; }
   if (e.target.closest('.card-down-btn')) { demote(card.dataset.eid); return; }
-  const url = card.dataset.url;
-  if (url) window.open(url, '_blank', 'noopener');
+  // card body click does nothing — use the Details button to navigate
 });
 
 function eventId(e) {
@@ -103,16 +102,18 @@ function cardHTML(e, showStage) {
   const upExtra = state === 'going' ? ' going' : state === 'interested' ? ' interested' : '';
   const downTitle = state === 'not-interested' ? 'Not interested – click to restore' : 'Click to mark as not interested';
   const upTitle = state === 'going' ? 'Going – click to demote' : state === 'interested' ? 'Interested – click to promote to Going' : 'Click to mark as interested';
-  return `<div class="${cardClass}" data-eid="${eid}"${urlAttr}${e.url ? ' title="Open session page"' : ''}>
+  const detailsBtn = e.url ? `<a class="card-details-btn" href="${e.url}" target="_blank" rel="noopener">Details ↗</a>` : '';
+  return `<div class="${cardClass}" data-eid="${eid}"${urlAttr}>
     <div class="card-state-btns">
       <button class="card-down-btn${downActive}" title="${downTitle}" aria-label="${downTitle}">▼</button>
       <button class="card-up-btn${upExtra}" title="${upTitle}" aria-label="${upTitle}">▲</button>
     </div>
     ${e.type !== 'talk' ? `<div class="card-type ${e.type}">${e.type}</div>` : ''}
     ${showStage && e.stage ? `<div class="stage-label">${e.stage}</div>` : ''}
-    <div class="card-title">${titleHTML}</div>
+    <div class="card-title">${e.title}</div>
     ${e.speakers && e.speakers.length ? `<div class="card-speakers">${e.speakers.join(', ')}</div>` : ''}
     <div class="card-time">${e.start}–${e.end}</div>
+    ${detailsBtn}
   </div>`;
 }
 
