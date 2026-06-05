@@ -145,6 +145,8 @@ Interpretation: LLMs are "unconscious competent" ~98% of the time and "unconscio
 
 The talk lacks a frame. It's like loose notes from a researcher's Zettelkasten — individually defensible, but without a greater context where they would be truly relevant or impactful.
 
+> **Feedback:** Great speaker and story-teller, but not really contributing much. I could not agree more on the insights, and it's not just opinions, everything said I found well founded — yet it does not add up to much. Seems like bottom-up philosophy that is not getting anywhere at the end; happily mapping out the cul-de-sacs of the past, but with no inspiration or ideals for the future; smugly elaborating failures of other idealists — but at least they tried to get somewhere. I'd expect Kevlin Henney to deliver more than just philosophical post-mortems.
+
 #### Building 10x Organizations using Modern Productivity Metrics · Justin Reock
 
 **Rating:** ★★★☆☆
@@ -169,6 +171,8 @@ Covered several productivity metrics, building up to the concept of **AI Readine
 **Futures vs. Features graph:** Adding features (x-axis) steadily reduces "futures" (y-axis) — the space of things still possible — until hitting bottom, where new features can only be added alongside bare-minimum cleanup refactorings. Kent's proposal: interleave feature work with deliberate refactoring so that futures can actually increase as features are added, rather than only being depleted.
 
 Abstract, but a genuinely helpful framing for the tension between delivery and sustainability.
+
+> **Feedback:** Now I know the "Desert" can be a great metaphor to describe the typical software developer's work setting 😆 and the hard business truth — being economically successful — as well, thanks for the valuable insight! Also enjoyed to see that a keynote — or any other important speech — can be given at a human pace, that allows the audience to think along. All too often in today's business life, I have to accept talks — or meetings — where I am just flooded with 2x audio speed that is impossible to digest. And while I perceived the presentation speed as slow, I was surprised — at one point Kent noted "20 minutes left" when it felt like "must be 10 minute overtime" to me — great immersion.
 
 #### Working Effectively with AI-Generated Code · Michael Feathers
 
