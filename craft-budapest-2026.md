@@ -67,6 +67,8 @@ Stages: Main Stage (18), Platform 2 (11), Focus Platform (6), Yellow Stage (11),
 - AI has an amplification effect: seniors gain the most, while juniors use more tokens with less results. Judgement you already have is what the tool rewards.
 - Recommendations: stay (or become) hands-on; use AI to gain deep understanding rather than shortcuts; integrate AI at the system level to reduce friction.
 
+> **Feedback:** One problem in my daily worklife as well as in this keynote: people dominating by speaking fast. Are you talking to me? Or are you compensating for people who listen to the YouTube recording at 2x? Or do you just talk to win the argument? The content may be great — I assume it was — but if I am just flooded without time to think along, where is the value of buying the ticket for the live event, when I have to redo the speech later on YouTube at 0.5x? I guess the content was great, but most of it was lost on me. Plus I get drained, with less capacity for the other talks. More is not always better.
+
 #### Turn the Sh*t Around – High-performance communication techniques for high-performing teams · Joseph Pelrine
 
 **Rating:** ★★★☆☆
@@ -80,6 +82,8 @@ Stages: Main Stage (18), Platform 2 (11), Focus Platform (6), Yellow Stage (11),
 Illustrated toxic communication strategies using Trump as an example.
 
 **Side note:** Techniques for managing triggers in the moment — breathing or thinking exercises, physical stimuli to break out of the triggered state.
+
+> **Feedback:** Valuable talk, great presentation. I think it is challenging to present and make the audience take away something in only one talk among many, in these two intense days, but the topic is relevant and I am glad for all the bits that I could pick up. Maybe this is an application of *"steter Tropfen höhlt den Stein"*. Maybe instead of hitting on president Trump, aim more on every-day workplace settings — might be riskier because the target is more diffuse, but in case you hit a sore spot there, some in the audience will take away more.
 
 #### Thinking like an Architect · Gregor Hohpe
 
@@ -99,6 +103,8 @@ A large portion focused on the power of metaphors: using them to build shared un
 - Unearth hidden assumptions — make them obvious.
 
 The mark of success: at the end of the process, stakeholders feel the solution is *"obvious"* — that obviousness is what the architect produced.
+
+> **Feedback:** Opening with a dry LaTeX formula — was that an intentional gate? I think this talk was a great fit for what I expected from the Craft conference, bridging from software crafting to management planning. Being aware of the important dimensions, and building an opinion on what dimensions are important. The opening of the talk was bumpy, but the overall lesson was well-rounded, insightful, relevant, more adjectives here… the term "architect" is still not settled, but as I learned, in our business, language is relevant yet ambiguous 😆.
 
 #### Debiasing Your Software Design Decision-Making · Kenny (Baas) Schwegler & Evelyn van Kelle
 
@@ -131,10 +137,69 @@ Interpretation: LLMs are "unconscious competent" ~98% of the time and "unconscio
 
 **The Hopper:** A monkey-testing approach — deliberately trying to break the system at its edges, then feeding the findings back into the LLM to drive the next refinement cycle.
 
+#### Principle Misunderstandings · Kevlin Henney
+
+**Rating:** ★★☆☆☆
+
+**Notes:** Kevlin Henney is an eloquent and witty speaker, but there was little to take away. He comes across as a knowledgeable but somewhat gruntled figure going around correcting others — point after point, yet somehow not summing up to anything useful. The material covered flaws in the wording and ideas used in software development (e.g. DRY and separation of concerns), but both were more exercises in precise wording than sources of distilled, positive insight.
+
+The talk lacks a frame. It's like loose notes from a researcher's Zettelkasten — individually defensible, but without a greater context where they would be truly relevant or impactful.
+
+#### Building 10x Organizations using Modern Productivity Metrics · Justin Reock
+
+**Rating:** ★★★☆☆
+
+**Notes:** Debunked the 10x developer myth at the individual level, but cited research showing huge productivity differences do exist — between companies rather than individuals. Referenced Goldratt's *The Goal* and *The Phoenix Project* as foundational reading.
+
+Covered several productivity metrics, building up to the concept of **AI Readiness** as a modern organisational capability to measure and develop.
+
 ### Day 2 – Friday, June 5
 
 <!-- Add reviews here -->
 
+#### Forest & Desert & Genie · Kent Beck (Keynote)
+
+**Rating:** ★★★★☆
+
+**Notes:** Sparse slides, mostly oral delivery with live drawing. Two metaphors for development environments:
+
+- **Forest** — lush, resource-rich; easy to grow and advance.
+- **Desert** — resources are scarce, progress is grinding; yet often financially lucrative. Reflects the business environment where developers must make do with bare minimum or less.
+
+**Futures vs. Features graph:** Adding features (x-axis) steadily reduces "futures" (y-axis) — the space of things still possible — until hitting bottom, where new features can only be added alongside bare-minimum cleanup refactorings. Kent's proposal: interleave feature work with deliberate refactoring so that futures can actually increase as features are added, rather than only being depleted.
+
+Abstract, but a genuinely helpful framing for the tension between delivery and sustainability.
+
+#### Working Effectively with AI-Generated Code · Michael Feathers
+
+**Rating:** ★★☆☆☆
+
+**Notes:** Disappointing given the speaker's reputation. Essentially mapped his previous success mantra around legacy software onto AI-written code, without adding much that is new. Confirmed common insights — e.g. don't stop thinking for yourself while using AI; use AI to leverage your own thinking rather than replace it.
+
+One concrete idea worth taking away: ask the LLM for a **quiz** on the material it just helped you with, as a way to verify and deepen your own understanding.
+
+#### How Durable Computing is Reshaping Distributed Systems · Jeremy Edberg
+
+**Rating:** ★★★☆☆
+
+**Notes:** A refreshingly practical talk, free of AI hype. Covered tracking workflows in the database as a durability mechanism for distributed systems — a solid and well-explained pattern. Nothing new for anyone who has built this before, but a good, instructive session for engineers who haven't encountered the approach yet.
+
+Based on the [DBOS framework](https://docs.dbos.dev/).
+
+#### AI Native Engineering · Ian Thomas
+
+**Rating:** ★★★★☆
+
+**Notes:** A genuine leadership talk — about starting a small initiative and growing it into a larger user group, with an AI-native engineering team as the subject. Went in half-expecting Meta-bashing, but the talk and presenter were a pleasant surprise: grounded, thoughtful, and well-delivered.
+
+Based on the [DBOS framework](https://docs.dbos.dev/).
+
 ## Inspirations
 
 - **MCP as an LLM interface for existing systems:** Could the current system be made more amenable to LLMs by exposing functionality via MCP? This could serve as a way to provide well-defined functions to other agents, and potentially open the system up for agentic / automated testing (cf. the "Hopper" concept from Michelle Brush's talk).
+
+## Reading Suggestions
+
+- **The Goal** – Eliyahu M. Goldratt. A novel introducing the Theory of Constraints, using a manufacturing plant as the setting. Foundational for thinking about bottlenecks and flow in organisations.
+- **The Phoenix Project** – Gene Kim, Kevin Behr & George Spafford. A novel applying Goldratt's ideas to IT and DevOps. Companion to *The DevOps Handbook*.
+- **Collaborative Software Design: How to Facilitate Domain Modeling Decisions** – Kenny (Baas) Schwegler & Evelyn van Kelle. From the speakers of the "Debiasing Your Software Design Decision-Making" talk.
