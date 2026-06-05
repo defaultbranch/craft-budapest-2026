@@ -125,6 +125,8 @@ Techniques mentioned:
 
 Additional habit suggestions were shown during the talk. The speakers have published a book on the topic.
 
+> **Feedback:** Fulfilled my expectations of the Craft conference: learning about such soft skills. And although this is a soft subject, it cannot be over-underestimated 😉 I need to read their book (the one published 2024).
+
 #### Taming the Unpredictable: Technical Leadership in Chaotic Times · Michelle Brush
 
 **Rating:** ★★★☆☆
@@ -206,4 +208,4 @@ Based on the [DBOS framework](https://docs.dbos.dev/).
 
 - **The Goal** – Eliyahu M. Goldratt. A novel introducing the Theory of Constraints, using a manufacturing plant as the setting. Foundational for thinking about bottlenecks and flow in organisations.
 - **The Phoenix Project** – Gene Kim, Kevin Behr & George Spafford. A novel applying Goldratt's ideas to IT and DevOps. Companion to *The DevOps Handbook*.
-- **Collaborative Software Design: How to Facilitate Domain Modeling Decisions** – Kenny (Baas) Schwegler & Evelyn van Kelle. From the speakers of the "Debiasing Your Software Design Decision-Making" talk.
+- **Collaborative Software Design: How to Facilitate Domain Modeling Decisions** (2024) – Kenny (Baas) Schwegler & Evelyn van Kelle. From the speakers of the "Debiasing Your Software Design Decision-Making" talk.
