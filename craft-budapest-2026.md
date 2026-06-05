@@ -36,3 +36,18 @@ Stages: Main Stage (18), Platform 2 (11), Focus Platform (6), Yellow Stage (11),
 
 - [Day 1 – Thursday, June 4](craft-budapest-day-1.md)
 - [Day 2 – Friday, June 5](craft-budapest-day-2.md)
+
+## Overall Impressions
+
+**Atmosphere:** Craft feels more playful and relaxed than conferences like Devoxx. People are very open and friendly — easy to get into conversations with everyone.
+
+**Content:** Less technical depth than expected; the program leans more towards presentations than hands-on, practical takeaways. That said, this was intentional for this trip — the goal was to learn about leadership topics and psychological aspects of team and company work, which the conference does cover.
+
+**AI overload:** The schedule is heavily dominated by AI topics. Seemingly fewer than 25% of talks avoid mentioning AI.
+
+**Format drawbacks:**
+- Compressed into just two days with up to 10 tracks running in parallel — hard to prioritise.
+- One track (Tech Leaders' Lounge) requires a VIP ticket, effectively leaving only nine accessible tracks.
+- Some talks have no abstract on the programme page, making it difficult to judge what a session will cover.
+
+**Food:** Excellent. You can get through the entire day without eating elsewhere (hotel breakfast helps too).
